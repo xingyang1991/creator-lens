@@ -2,6 +2,7 @@ import OpenAI from 'openai';
 import type { AppContext, Card, Deck, OutputContract, OutputModule, SignalTag, DeckInfo } from '../types';
 import { LIBRARY_DECKS } from '../constants';
 import { ALL_CARDS, getCardById, getDeckBySuitId, getDeckInfoById } from '../library';
+import { buildTextPrompt, buildImagePrompt, getCreatorKnowledge } from './promptEngine';
 
 // -----------------------------
 // 阿里云百炼 API 客户端
@@ -329,10 +330,10 @@ export const aliyunService = {
 
   /**
    * REVEAL: 使用 qwen-plus 生成策展文本
-   * 根据 Deck 的 modules 定义生成模块化输出
+   * 集成知识库提示词，深度贴合每位创作者的方法论
    */
   generateOutput: async (ctx: AppContext): Promise<OutputContract> => {
-    console.log('[Creator Lens] Starting modular text generation with qwen-plus...');
+    console.log('[Creator Lens] Starting knowledge-enhanced text generation with qwen-plus...');
     
     const card = selectCardFromCtx(ctx);
     const deck = ctx.reco?.deck;
@@ -341,19 +342,28 @@ export const aliyunService = {
     // 获取 DeckInfo 以获取模块定义
     const deckId = card.deckId || '';
     const deckInfo = getDeckInfoById(deckId);
+    const creatorName = card.creator || 'Unknown';
     
-    console.log(`[Creator Lens] Card: ${card.id}, Deck: ${deckId}, DeckInfo found: ${!!deckInfo}`);
+    console.log(`[Creator Lens] Card: ${card.id}, Creator: ${creatorName}, Deck: ${deckId}`);
+
+    // 获取创作者知识库
+    const knowledge = getCreatorKnowledge(creatorName);
+    if (knowledge) {
+      console.log(`[Creator Lens] Found knowledge base for ${creatorName}`);
+    } else {
+      console.log(`[Creator Lens] No knowledge base found for ${creatorName}, using default template`);
+    }
 
     const directorChoices = (ctx.direct?.answers || [])
-      .map((a: any) => `- ${a.category || a.id}: ${a.label}`)
-      .join('\n');
+      .map((a: any) => a.label)
+      .filter(Boolean);
 
     const evidenceLines = (ctx.scan?.evidence || [])
       .slice(0, 6)
       .map((e) => `- ${e.type}: ${e.value}`)
       .join('\n');
 
-    const safetyFlags = (ctx.scan?.safetyFlags || []).join(', ');
+    const verdict = ctx.scan?.verdict || '';
     const signalTags = (ctx.scan?.signalTags || []).join(', ');
     const cardSpec = condenseCardSpecForPrompt(card);
 
@@ -362,7 +372,6 @@ export const aliyunService = {
     let modulesSchema = '';
     
     if (deckInfo && deckInfo.modules && deckInfo.modules.length > 0) {
-      // 只处理 text 格式的模块
       const textModules = deckInfo.modules.filter(m => m.format === 'text');
       
       if (textModules.length > 0) {
@@ -373,12 +382,7 @@ export const aliyunService = {
 牌组描述：${deckInfo.description}
 
 你必须为以下每个模块生成对应的内容：
-${textModules.map((m, i) => `${i + 1}. ${m.module_id}（${m.desc}）${m.required ? '【必需】' : '【可选】'}`).join('\n')}
-
-每个模块的内容应该：
-- 严格遵循该模块的描述和用途
-- 深度贴合创作者 ${card.creator || 'Unknown'} 的方法论
-- 与图像分析结果紧密关联`;
+${textModules.map((m, i) => `${i + 1}. ${m.module_id}（${m.desc}）${m.required ? '【必需】' : '【可选】'}`).join('\n')}`;
 
         modulesSchema = `,
   "modules": [
@@ -387,44 +391,71 @@ ${textModules.map(m => `    {"moduleId": "${m.module_id}", "title": "${m.desc}",
       }
     }
 
+    // 构建知识库增强的提示词
+    let knowledgeSection = '';
+    if (knowledge) {
+      knowledgeSection = `
+
+【创作者知识库 - ${knowledge.creator_name}】
+
+核心偏见（这位创作者如何看世界）：
+${knowledge.core_bias}
+
+工艺规则（不可违反的创作纪律）：
+${knowledge.craft_rules}
+
+语境制度（作品成立的舞台）：
+${knowledge.context_stage}
+
+语料库（代表性语句/思想钢印）：
+${knowledge.corpus_quotes}
+
+【重要】你的输出必须：
+1. 深度体现上述核心偏见——用这位创作者的视角来"歪曲"地看这张图像
+2. 严格遵循工艺规则——这是这位创作者的创作纪律
+3. 语气和风格要像语料库中的表达——这是这位创作者的"思想钢印"
+4. 让读者感受到"这位艺术家也会这么做"的体验`;
+    }
+
     const prompt = `你是"Creator Lens"的策展文本生成器。
 
-你会得到：
-1) 用户上传图片的分析结果（判词/证据/信号标签）
-2) 当前选择的能力卡（含卡片规范说明）
-3) DIRECT 导演参数（用户的选择）
-4) 牌组模块要求（定义了输出的结构）
+你的任务：为用户上传的图像生成一份"展签式文本"，让用户强烈感受到"${creatorName} 也会这么做"的体验。
 
-你的任务：生成一份可展出的"展签式文本"，必须深度贴合该能力卡的创作方法论。
+这不是简单的风格模仿，而是要注入这位创作者的"偏见-规则-语境"三元组，让输出物成为一件"有社会位置的东西"。${knowledgeSection}
 
-【能力卡】
+【能力卡信息】
 id: ${card.id}
 title: ${card.title}
-creator: ${card.creator ?? 'Unknown'}
+creator: ${creatorName}
 suit: ${card.suitName ?? ''}
 deck: ${card.deckName ?? ''}
-tags: ${(card.tags || []).slice(0, 10).join(', ')}
 
 【能力卡规范（节选）】
 <<<
 ${cardSpec}
 >>>${modulesInstruction}
 
-【DIRECT 参数】
-${directorChoices || '(none)'}
+【用户选择的创作方向】
+${directorChoices.length > 0 ? directorChoices.join('、') : '综合观察'}
 
 【图像分析】
-verdict: ${ctx.scan?.verdict || ''}
-evidence:\n${evidenceLines || '- (none)'}
-safety_flags: ${safetyFlags || '(none)'}
-signal_tags: ${signalTags || '(none)'}
+判词: ${verdict}
+证据:\n${evidenceLines || '- (none)'}
+信号标签: ${signalTags || '(none)'}
 
-输出要求：
+【输出要求】
 - 只返回严格 JSON（不要 markdown、不要解释）
-- title：10-18字，像作品标题，体现创作者 ${card.creator || 'Unknown'} 的风格
-- hook：1-2句，像策展人开场，点明方法论核心
+- title：10-18字，像作品标题，要有立场、有态度
+- hook：1-2句，像策展人开场，点明方法论核心，要"短、硬、有立场"
 - modules：按照牌组模块要求生成，每个模块内容 80-200 字
-- coreCandidates：给出 3 个可选"核心机制/展览锚点"，每个包含 label 与 reason（reason 40-80字）
+- coreCandidates：给出 3 个可选"核心机制/展览锚点"，每个包含 label（2-4字）与 reason（40-80字）
+
+【语气要求】
+- 短、硬、有立场，可截图传播
+- 可以带一点俏皮/反讽
+- 像美术馆展签 + 专栏短评的混合体
+- 不要长篇学术论文
+- 不要完全模拟艺术家本人独白（避免复刻/冒充感）
 
 格式如下：
 {
@@ -508,69 +539,99 @@ signal_tags: ${signalTags || '(none)'}
 
   /**
    * IMAGE: 使用后端代理服务生成艺术图像
-   * 智能判断是否需要基于原图生成：
-   * - 如果需要保持原图内容一致性（人物、证据等），使用 qwen-image-edit-plus（图生图）
-   * - 如果是纯艺术创作，使用 qwen-image-plus（文生图）
+   * 集成知识库提示词，让用户感受到"这位艺术家也会这么做"
    */
   generateArtisticImage: async (ctx: AppContext): Promise<string> => {
-    console.log('[Creator Lens] Starting image generation via proxy...');
+    console.log('[Creator Lens] Starting knowledge-enhanced image generation...');
     
     const card = selectCardFromCtx(ctx);
     if (!card) throw new Error('Missing card');
+
+    const creatorName = card.creator || 'Unknown';
+    
+    // 获取创作者知识库
+    const knowledge = getCreatorKnowledge(creatorName);
+    if (knowledge) {
+      console.log(`[Creator Lens] Found knowledge base for ${creatorName}`);
+    } else {
+      console.log(`[Creator Lens] No knowledge base found for ${creatorName}`);
+    }
 
     // 智能判断是否需要基于原图生成
     const useImageReference = shouldUseImageReference(ctx, card);
     console.log(`[Creator Lens] Use image reference: ${useImageReference}`);
 
     const directorChoices = (ctx.direct?.answers || [])
-      .map((a) => `${a.category}: ${a.label}`)
-      .join(' | ');
+      .map((a) => a.label)
+      .filter(Boolean);
 
-    const cardSpec = condenseCardSpecForPrompt(card);
     const verdict = ctx.scan?.verdict || '';
+    const deckName = card.deckName || '';
 
-    // 构建 prompt
+    // 构建知识库增强的图像提示词
     let prompt: string;
     
-    if (useImageReference) {
-      // 图生图模式：指令需要明确引用原图
-      prompt = `基于图1（用户上传的原图），按照以下创作方法论进行艺术化处理。
-
-【重要】必须保持图1中主体的核心特征（如人物相貌、物体形态、场景布局），在此基础上进行艺术风格转换。
-
-能力卡: ${card.title}
-创作者: ${card.creator ?? ''}
-风格/系列: ${card.suitName ?? ''} / ${card.deckName ?? ''}
-导演参数: ${directorChoices || '默认'}
-
-原图分析: ${verdict}
-
-创作规范:
-${cardSpec}
-
-要求:
-- 保持图1中主体的可识别性和核心特征
-- 如果图1有人脸，保持人物的基本相貌特征，但可以进行艺术化处理（如风格化、光影调整）
-- 风格应符合能力卡的创作方法论
-- 生成一张完整的艺术图像`;
+    if (knowledge && knowledge.image_prompt_template) {
+      // 使用知识库中的图像提示词模板
+      prompt = knowledge.image_prompt_template
+        .replace(/这张图片/g, `这张${verdict}的图片`)
+        .replace(/\[用户上传的图片描述\]/g, verdict);
+      
+      // 添加用户选择的方向
+      if (directorChoices.length > 0) {
+        prompt += `\n\n用户选择的创作方向：${directorChoices.join('、')}。`;
+      }
+      
+      // 添加语境制度
+      if (knowledge.context_stage) {
+        prompt += `\n\n作品呈现语境：${knowledge.context_stage}`;
+      }
+      
+      // 添加视觉词汇
+      if (knowledge.visual_vocabulary) {
+        prompt += `\n\n视觉词汇：${knowledge.visual_vocabulary}`;
+      }
     } else {
-      // 文生图模式：纯创意生成
-      prompt = `根据以下创作方法论，创作一幅艺术作品。
+      // 回退到默认模板，但依然注入知识库信息
+      const knowledgeContext = knowledge ? `
 
-能力卡: ${card.title}
-创作者: ${card.creator ?? ''}
-风格/系列: ${card.suitName ?? ''} / ${card.deckName ?? ''}
-导演参数: ${directorChoices || '默认'}
+【创作者知识库】
+核心偏见：${knowledge.core_bias}
+工艺规则：${knowledge.craft_rules}
+语境制度：${knowledge.context_stage}
+视觉词汇：${knowledge.visual_vocabulary}` : '';
+      
+      if (useImageReference) {
+        prompt = `将这张${verdict}的图片转化为 ${creatorName} 风格的作品。
 
-灵感来源: ${verdict}
+方法论：${card.title}
+牌组：${deckName}
+创作方向：${directorChoices.join('、') || '综合观察'}${knowledgeContext}
 
-创作规范:
-${cardSpec}
+【核心要求】
+1. 这不是简单的风格迁移或滤镜效果
+2. 要把原图放进"作品成立的舞台"——让它看起来像一件有社会位置的作品
+3. 可能的呈现形式：展陈、档案、热搜截图、分镜、EP封面、图录条目、头版快讯、案卷页等
+4. 保持原图中主体的可识别性和核心特征
+5. 遵循这位艺术家的创作规则和视觉语言
 
-要求:
-- 风格应符合能力卡的创作方法论
-- 可以自由发挥创意
-- 生成一张完整的艺术图像`;
+【禁止】
+- 简单的滤镜效果
+- 过度的风格化
+- 失去原图的核心内容`;
+      } else {
+        prompt = `根据 ${creatorName} 的创作方法论，创作一幅艺术作品。
+
+方法论：${card.title}
+牌组：${deckName}
+灵感来源：${verdict}
+创作方向：${directorChoices.join('、') || '综合观察'}${knowledgeContext}
+
+【核心要求】
+1. 这不是简单的风格模仿，而是要注入这位创作者的"偏见-规则-语境"三元组
+2. 让输出物成为一件"有社会位置的东西"
+3. 可能的呈现形式：展陈、档案、热搜截图、分镜、EP封面、图录条目、头版快讯、案卷页等`;
+      }
     }
 
     const startTime = Date.now();
@@ -583,7 +644,7 @@ ${cardSpec}
         : 'https://3001-ii45ssaaaqz82u4fr6ulh-c74f0814.us2.manus.computer');
 
     // 前端 API 密钥
-    const API_KEY = import.meta.env.VITE_FRONTEND_API_KEY || '';
+    const API_KEY = import.meta.env.VITE_FRONTEND_API_KEY || '${FRONTEND_API_KEY}';
 
     // 准备请求体
     const requestBody: {
