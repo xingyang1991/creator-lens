@@ -1,0 +1,30 @@
+{
+  "card_id": "amalia_ulman__scripted_feed",
+  "creator": "Amalia Ulman",
+  "creator_raw": "Amalia Ulman",
+  "card_name_en": "SCRIPTED FEED",
+  "card_name_zh": "演出时间线生成器",
+  "suit_id": "skin",
+  "suit_ui": "皮肤",
+  "deck_id": "scripted_feed",
+  "deck_ui": "演出时间线",
+  "tags": [
+    "creator:amalia_ulman",
+    "deck:scripted_feed",
+    "origin:photo",
+    "output:timeline",
+    "risk:face_clear",
+    "structure:sequence_potential",
+    "suit:skin",
+    "theme:performance",
+    "ui:social_feed"
+  ],
+  "risk_level": 2,
+  "sharpness": 0.85,
+  "content_markdown_path": "cards/markdown/amalia_ulman__scripted_feed.md",
+  "source": {
+    "type": "conversation",
+    "note": "Card spec written in prior rounds; packaged for dev team."
+  },
+  "version": "1.0"
+}

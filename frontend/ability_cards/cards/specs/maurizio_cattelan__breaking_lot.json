@@ -1,0 +1,30 @@
+{
+  "card_id": "maurizio_cattelan__breaking_lot",
+  "creator": "Maurizio Cattelan",
+  "creator_raw": "Maurizio Cattelan",
+  "card_name_en": "BREAKING LOT",
+  "card_name_zh": "机构新闻包",
+  "suit_id": "installation",
+  "suit_ui": "展厅",
+  "deck_id": "institutional_press_kit",
+  "deck_ui": "机构新闻包",
+  "tags": [
+    "carrier:signage",
+    "creator:maurizio_cattelan",
+    "deck:institutional_press_kit",
+    "object:catalogue",
+    "object:certificate",
+    "output:certificate",
+    "space:whitecube",
+    "suit:installation",
+    "theme:institution"
+  ],
+  "risk_level": 1,
+  "sharpness": 0.8,
+  "content_markdown_path": "cards/markdown/maurizio_cattelan__breaking_lot.md",
+  "source": {
+    "type": "conversation",
+    "note": "Card spec written in prior rounds; packaged for dev team."
+  },
+  "version": "1.0"
+}

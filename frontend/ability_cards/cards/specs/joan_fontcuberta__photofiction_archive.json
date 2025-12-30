@@ -1,0 +1,32 @@
+{
+  "card_id": "joan_fontcuberta__photofiction_archive",
+  "creator": "Joan Fontcuberta",
+  "creator_raw": "Joan Fontcuberta",
+  "card_name_en": "PHOTOFICTION ARCHIVE",
+  "card_name_zh": "拟真伪档案",
+  "suit_id": "dossier",
+  "suit_ui": "卷宗",
+  "deck_id": "photofiction_archive",
+  "deck_ui": "伪档案柜",
+  "tags": [
+    "creator:joan_fontcuberta",
+    "deck:photofiction_archive",
+    "object:archive_box",
+    "origin:scan",
+    "output:dossier",
+    "output:index_card",
+    "suit:dossier",
+    "theme:institution",
+    "theme:memory"
+  ],
+  "risk_level": 0,
+  "sharpness": 0.72,
+  "content_markdown_path": "cards/markdown/joan_fontcuberta__photofiction_archive.md",
+  "source": {
+    "type": "pack",
+    "pack": "artist_cases_pack_v4",
+    "original_file": "13_Joan_Fontcuberta.md",
+    "original_relpath": "source_packs/artist_cases_pack_v4/13_Joan_Fontcuberta.md"
+  },
+  "version": "1.0"
+}

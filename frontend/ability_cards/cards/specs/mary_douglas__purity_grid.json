@@ -1,0 +1,30 @@
+{
+  "card_id": "mary_douglas__purity_grid",
+  "creator": "Mary Douglas",
+  "creator_raw": "Mary Douglas",
+  "card_name_en": "PURITY GRID",
+  "card_name_zh": "污染-秩序分类器",
+  "suit_id": "dossier",
+  "suit_ui": "卷宗",
+  "deck_id": "purity_grid",
+  "deck_ui": "边界表",
+  "tags": [
+    "creator:mary_douglas",
+    "deck:purity_grid",
+    "object:form",
+    "output:dossier",
+    "suit:dossier",
+    "theme:evidence",
+    "theme:institution"
+  ],
+  "risk_level": 0,
+  "sharpness": 0.6,
+  "content_markdown_path": "cards/markdown/mary_douglas__purity_grid.md",
+  "source": {
+    "type": "pack",
+    "pack": "creator_cases_pack_v5",
+    "original_file": "02_Mary_Douglas.md",
+    "original_relpath": "source_packs/creator_cases_pack_v5/02_Mary_Douglas.md"
+  },
+  "version": "1.0"
+}

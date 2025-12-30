@@ -1,0 +1,32 @@
+{
+  "card_id": "bellingcat__osint_thread",
+  "creator": "Bellingcat",
+  "creator_raw": "Bellingcat（OSINT 调查团队）",
+  "card_name_en": "OSINT THREAD",
+  "card_name_zh": "证据链热帖",
+  "suit_id": "dossier",
+  "suit_ui": "卷宗",
+  "deck_id": "evidence_wall",
+  "deck_ui": "证据墙",
+  "tags": [
+    "creator:bellingcat",
+    "deck:evidence_wall",
+    "object:map",
+    "origin:screenshot",
+    "output:board",
+    "suit:dossier",
+    "theme:evidence",
+    "theme:institution",
+    "ui:timestamp_overlay"
+  ],
+  "risk_level": 1,
+  "sharpness": 0.78,
+  "content_markdown_path": "cards/markdown/bellingcat__osint_thread.md",
+  "source": {
+    "type": "pack",
+    "pack": "artist_cases_pack_v4",
+    "original_file": "01_Bellingcat.md",
+    "original_relpath": "source_packs/artist_cases_pack_v4/01_Bellingcat.md"
+  },
+  "version": "1.0"
+}

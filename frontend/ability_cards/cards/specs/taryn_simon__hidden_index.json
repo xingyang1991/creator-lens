@@ -1,0 +1,32 @@
+{
+  "card_id": "taryn_simon__hidden_index",
+  "creator": "Taryn Simon",
+  "creator_raw": "Taryn Simon",
+  "card_name_en": "HIDDEN INDEX",
+  "card_name_zh": "不可见之物索引编译器",
+  "suit_id": "dossier",
+  "suit_ui": "卷宗",
+  "deck_id": "index_card",
+  "deck_ui": "索引卡",
+  "tags": [
+    "creator:taryn_simon",
+    "deck:index_card",
+    "object:archive_box",
+    "object:form",
+    "origin:scan",
+    "output:index_card",
+    "suit:dossier",
+    "theme:institution",
+    "theme:memory"
+  ],
+  "risk_level": 0,
+  "sharpness": 0.55,
+  "content_markdown_path": "cards/markdown/taryn_simon__hidden_index.md",
+  "source": {
+    "type": "pack",
+    "pack": "artist_cases_pack_v1",
+    "original_file": "04_TarynSimon_HIDDEN_INDEX.md",
+    "original_relpath": "source_packs/artist_cases_pack_v1/04_TarynSimon_HIDDEN_INDEX.md"
+  },
+  "version": "1.0"
+}

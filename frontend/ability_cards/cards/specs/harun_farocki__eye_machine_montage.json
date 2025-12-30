@@ -1,0 +1,30 @@
+{
+  "card_id": "harun_farocki__eye_machine_montage",
+  "creator": "Harun Farocki",
+  "creator_raw": "Harun Farocki",
+  "card_name_en": "EYE/MACHINE MONTAGE",
+  "card_name_zh": "双屏观看机制",
+  "suit_id": "mechanism",
+  "suit_ui": "拆机",
+  "deck_id": "split_screen",
+  "deck_ui": "双屏对照台",
+  "tags": [
+    "creator:harun_farocki",
+    "deck:split_screen",
+    "origin:screenshot",
+    "output:board",
+    "quality:compressed",
+    "suit:mechanism",
+    "theme:evidence",
+    "theme:institution",
+    "ui:video_player"
+  ],
+  "risk_level": 1,
+  "sharpness": 0.72,
+  "content_markdown_path": "cards/markdown/harun_farocki__eye_machine_montage.md",
+  "source": {
+    "type": "conversation",
+    "note": "Card spec written in prior rounds; packaged for dev team."
+  },
+  "version": "1.0"
+}

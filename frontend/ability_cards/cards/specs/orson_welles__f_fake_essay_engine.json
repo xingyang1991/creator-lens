@@ -1,0 +1,31 @@
+{
+  "card_id": "orson_welles__f_fake_essay_engine",
+  "creator": "Orson Welles",
+  "creator_raw": "Orson Welles",
+  "card_name_en": "F/FAKE ESSAY ENGINE",
+  "card_name_zh": "随笔电影机",
+  "suit_id": "screening",
+  "suit_ui": "放映",
+  "deck_id": "essay_film",
+  "deck_ui": "随笔电影台",
+  "tags": [
+    "creator:orson_welles",
+    "deck:essay_film",
+    "origin:screenshot",
+    "output:cue_sheet",
+    "quality:compressed",
+    "suit:screening",
+    "theme:institution",
+    "theme:montage"
+  ],
+  "risk_level": 0,
+  "sharpness": 0.65,
+  "content_markdown_path": "cards/markdown/orson_welles__f_fake_essay_engine.md",
+  "source": {
+    "type": "pack",
+    "pack": "artist_cases_pack_v4",
+    "original_file": "14_Orson_Welles.md",
+    "original_relpath": "source_packs/artist_cases_pack_v4/14_Orson_Welles.md"
+  },
+  "version": "1.0"
+}

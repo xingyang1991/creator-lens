@@ -1,0 +1,29 @@
+{
+  "card_id": "on_kawara__today_proof_of_life",
+  "creator": "On Kawara",
+  "creator_raw": "On Kawara",
+  "card_name_en": "TODAY/PROOF OF LIFE",
+  "card_name_zh": "日期证明板",
+  "suit_id": "serial",
+  "suit_ui": "连载",
+  "deck_id": "date_board",
+  "deck_ui": "日期证明板",
+  "tags": [
+    "creator:on_kawara",
+    "deck:date_board",
+    "object:map",
+    "origin:photo",
+    "output:receipt",
+    "structure:sequence_potential",
+    "suit:serial",
+    "theme:protocol"
+  ],
+  "risk_level": 0,
+  "sharpness": 0.35,
+  "content_markdown_path": "cards/markdown/on_kawara__today_proof_of_life.md",
+  "source": {
+    "type": "conversation",
+    "note": "Card spec written in prior rounds; packaged for dev team."
+  },
+  "version": "1.0"
+}

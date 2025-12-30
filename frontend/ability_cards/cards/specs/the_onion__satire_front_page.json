@@ -1,0 +1,31 @@
+{
+  "card_id": "the_onion__satire_front_page",
+  "creator": "The Onion",
+  "creator_raw": "The Onion",
+  "card_name_en": "SATIRE FRONT PAGE",
+  "card_name_zh": "讽刺头版机",
+  "suit_id": "skin",
+  "suit_ui": "皮肤",
+  "deck_id": "satire_front_page",
+  "deck_ui": "讽刺头版",
+  "tags": [
+    "carrier:signage",
+    "creator:the_onion",
+    "deck:satire_front_page",
+    "origin:screenshot",
+    "output:wall_label",
+    "suit:skin",
+    "theme:satire",
+    "ui:browser"
+  ],
+  "risk_level": 1,
+  "sharpness": 0.8,
+  "content_markdown_path": "cards/markdown/the_onion__satire_front_page.md",
+  "source": {
+    "type": "pack",
+    "pack": "creator_cases_pack_v5",
+    "original_file": "04_The_Onion.md",
+    "original_relpath": "source_packs/creator_cases_pack_v5/04_The_Onion.md"
+  },
+  "version": "1.0"
+}

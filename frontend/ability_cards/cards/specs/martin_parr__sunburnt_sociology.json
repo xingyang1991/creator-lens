@@ -1,0 +1,30 @@
+{
+  "card_id": "martin_parr__sunburnt_sociology",
+  "creator": "Martin Parr",
+  "creator_raw": "Martin Parr",
+  "card_name_en": "SUNBURNT SOCIOLOGY",
+  "card_name_zh": "饱和闪光社会学",
+  "suit_id": "photo_grammar",
+  "suit_ui": "摄影谱",
+  "deck_id": "saturated_flash",
+  "deck_ui": "饱和闪光",
+  "tags": [
+    "creator:martin_parr",
+    "deck:saturated_flash",
+    "light:flash",
+    "space:street",
+    "structure:sequence_potential",
+    "suit:photo_grammar",
+    "theme:satire"
+  ],
+  "risk_level": 0,
+  "sharpness": 0.65,
+  "content_markdown_path": "cards/markdown/martin_parr__sunburnt_sociology.md",
+  "source": {
+    "type": "pack",
+    "pack": "image_creator_cases_pack_v1",
+    "original_file": "01_Martin_Parr.md",
+    "original_relpath": "source_packs/image_creator_cases_pack_v1/01_Martin_Parr.md"
+  },
+  "version": "1.0"
+}

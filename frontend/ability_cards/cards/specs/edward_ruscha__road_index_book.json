@@ -1,0 +1,32 @@
+{
+  "card_id": "edward_ruscha__road_index_book",
+  "creator": "Edward Ruscha",
+  "creator_raw": "Edward Ruscha",
+  "card_name_en": "ROAD INDEX BOOK",
+  "card_name_zh": "公路索引书",
+  "suit_id": "dossier",
+  "suit_ui": "卷宗",
+  "deck_id": "index_book_page",
+  "deck_ui": "索引书页",
+  "tags": [
+    "creator:edward_ruscha",
+    "deck:index_book_page",
+    "object:form",
+    "object:map",
+    "output:index_card",
+    "space:street",
+    "structure:repetition",
+    "suit:dossier",
+    "theme:memory"
+  ],
+  "risk_level": 0,
+  "sharpness": 0.5,
+  "content_markdown_path": "cards/markdown/edward_ruscha__road_index_book.md",
+  "source": {
+    "type": "pack",
+    "pack": "image_creator_cases_pack_v1",
+    "original_file": "06_Edward_Ruscha.md",
+    "original_relpath": "source_packs/image_creator_cases_pack_v1/06_Edward_Ruscha.md"
+  },
+  "version": "1.0"
+}

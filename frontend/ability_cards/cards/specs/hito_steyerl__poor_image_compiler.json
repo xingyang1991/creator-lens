@@ -1,0 +1,32 @@
+{
+  "card_id": "hito_steyerl__poor_image_compiler",
+  "creator": "Hito Steyerl",
+  "creator_raw": "Hito Steyerl",
+  "card_name_en": "POOR IMAGE COMPILER",
+  "card_name_zh": "平台皮肤编译器",
+  "suit_id": "skin",
+  "suit_ui": "皮肤",
+  "deck_id": "platform_skin",
+  "deck_ui": "平台皮肤页",
+  "tags": [
+    "creator:hito_steyerl",
+    "deck:platform_skin",
+    "origin:screenshot",
+    "output:receipt",
+    "quality:compressed",
+    "suit:skin",
+    "theme:circulation",
+    "theme:visibility",
+    "ui:social_feed",
+    "ui:timestamp_overlay",
+    "ui:watermark"
+  ],
+  "risk_level": 1,
+  "sharpness": 0.78,
+  "content_markdown_path": "cards/markdown/hito_steyerl__poor_image_compiler.md",
+  "source": {
+    "type": "conversation",
+    "note": "Card spec written in prior rounds; packaged for dev team."
+  },
+  "version": "1.0"
+}

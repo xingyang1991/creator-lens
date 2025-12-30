@@ -1,0 +1,30 @@
+{
+  "card_id": "roman_opalka__infinite_count",
+  "creator": "Roman Opalka",
+  "creator_raw": "Roman Opalka",
+  "card_name_en": "INFINITE COUNT",
+  "card_name_zh": "无尽计数进度条",
+  "suit_id": "serial",
+  "suit_ui": "连载",
+  "deck_id": "infinite_count",
+  "deck_ui": "无尽计数",
+  "tags": [
+    "creator:roman_opalka",
+    "deck:infinite_count",
+    "output:dossier",
+    "structure:repetition",
+    "structure:sequence_potential",
+    "suit:serial",
+    "theme:protocol"
+  ],
+  "risk_level": 0,
+  "sharpness": 0.4,
+  "content_markdown_path": "cards/markdown/roman_opalka__infinite_count.md",
+  "source": {
+    "type": "pack",
+    "pack": "artist_cases_pack_v4",
+    "original_file": "10_Roman_Opalka.md",
+    "original_relpath": "source_packs/artist_cases_pack_v4/10_Roman_Opalka.md"
+  },
+  "version": "1.0"
+}

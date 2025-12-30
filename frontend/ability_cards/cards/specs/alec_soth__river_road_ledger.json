@@ -1,0 +1,31 @@
+{
+  "card_id": "alec_soth__river_road_ledger",
+  "creator": "Alec Soth",
+  "creator_raw": "Alec Soth",
+  "card_name_en": "RIVER ROAD LEDGER",
+  "card_name_zh": "路上田野编译器",
+  "suit_id": "roadbook",
+  "suit_ui": "路书",
+  "deck_id": "road_ledger",
+  "deck_ui": "路书账本",
+  "tags": [
+    "creator:alec_soth",
+    "deck:road_ledger",
+    "object:map",
+    "output:dossier",
+    "space:street",
+    "structure:sequence_potential",
+    "suit:roadbook",
+    "theme:memory"
+  ],
+  "risk_level": 0,
+  "sharpness": 0.55,
+  "content_markdown_path": "cards/markdown/alec_soth__river_road_ledger.md",
+  "source": {
+    "type": "pack",
+    "pack": "artist_cases_pack_v2",
+    "original_file": "03_AlecSoth_RIVER_ROAD_LEDGER.md",
+    "original_relpath": "source_packs/artist_cases_pack_v2/03_AlecSoth_RIVER_ROAD_LEDGER.md"
+  },
+  "version": "1.0"
+}

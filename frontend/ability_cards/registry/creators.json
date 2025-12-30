@@ -1,0 +1,1274 @@
+[
+  {
+    "creator_id": "aby_warburg",
+    "display_name": "Aby Warburg",
+    "aliases": [
+      "Aby Warburg",
+      "AbyWarburg",
+      "aby warburg"
+    ],
+    "card_ids": [
+      "aby_warburg__mnemosyne_panel"
+    ],
+    "deck_ids": [
+      "mnemosyne_panel"
+    ],
+    "suit_ids": [
+      "installation"
+    ],
+    "common_tags": [
+      "output:index_card",
+      "space:whitecube",
+      "structure:grid",
+      "structure:repetition",
+      "theme:memory"
+    ]
+  },
+  {
+    "creator_id": "adam_curtis",
+    "display_name": "Adam Curtis",
+    "aliases": [
+      "Adam Curtis",
+      "AdamCurtis",
+      "adam curtis",
+      "亚当·柯蒂斯"
+    ],
+    "card_ids": [
+      "adam_curtis__archive_cold_open"
+    ],
+    "deck_ids": [
+      "archive_montage"
+    ],
+    "suit_ids": [
+      "screening"
+    ],
+    "common_tags": [
+      "origin:screenshot",
+      "quality:compressed",
+      "structure:sequence_potential",
+      "theme:montage",
+      "ui:video_player"
+    ]
+  },
+  {
+    "creator_id": "alec_soth",
+    "display_name": "Alec Soth",
+    "aliases": [
+      "Alec Soth",
+      "AlecSoth",
+      "alec soth",
+      "亚历克·索斯"
+    ],
+    "card_ids": [
+      "alec_soth__river_road_ledger"
+    ],
+    "deck_ids": [
+      "road_ledger"
+    ],
+    "suit_ids": [
+      "roadbook"
+    ],
+    "common_tags": [
+      "object:map",
+      "output:dossier",
+      "space:street",
+      "structure:sequence_potential",
+      "theme:memory"
+    ]
+  },
+  {
+    "creator_id": "amalia_ulman",
+    "display_name": "Amalia Ulman",
+    "aliases": [
+      "Amalia Ulman",
+      "AmaliaUlman",
+      "amalia ulman",
+      "阿玛莉亚·乌尔曼"
+    ],
+    "card_ids": [
+      "amalia_ulman__scripted_feed"
+    ],
+    "deck_ids": [
+      "scripted_feed"
+    ],
+    "suit_ids": [
+      "skin"
+    ],
+    "common_tags": [
+      "origin:photo",
+      "output:timeline",
+      "risk:face_clear",
+      "structure:sequence_potential",
+      "theme:performance",
+      "ui:social_feed"
+    ]
+  },
+  {
+    "creator_id": "andreas_gursky",
+    "display_name": "Andreas Gursky",
+    "aliases": [
+      "Andreas Gursky",
+      "AndreasGursky",
+      "andreas gursky",
+      "安德烈亚斯·古尔斯基"
+    ],
+    "card_ids": [
+      "andreas_gursky__mega_system_panorama"
+    ],
+    "deck_ids": [
+      "panorama_zoom"
+    ],
+    "suit_ids": [
+      "mechanism"
+    ],
+    "common_tags": [
+      "origin:photo",
+      "output:board",
+      "structure:panorama",
+      "structure:repetition",
+      "theme:institution"
+    ]
+  },
+  {
+    "creator_id": "bellingcat",
+    "display_name": "Bellingcat",
+    "aliases": [
+      "Bellingcat",
+      "Bellingcat（OSINT 调查团队）",
+      "Bellingcat（贝灵猫）",
+      "bellingcat",
+      "贝灵猫"
+    ],
+    "card_ids": [
+      "bellingcat__osint_thread"
+    ],
+    "deck_ids": [
+      "evidence_wall"
+    ],
+    "suit_ids": [
+      "dossier"
+    ],
+    "common_tags": [
+      "object:map",
+      "origin:screenshot",
+      "output:board",
+      "theme:evidence",
+      "theme:institution",
+      "ui:timestamp_overlay"
+    ]
+  },
+  {
+    "creator_id": "bernd_hilla_becher",
+    "display_name": "Bernd & Hilla Becher",
+    "aliases": [
+      "Bernd Hilla Becher",
+      "Bernd&HillaBecher",
+      "bernd & hilla becher"
+    ],
+    "card_ids": [
+      "bernd_hilla_becher__typology_grid"
+    ],
+    "deck_ids": [
+      "typology_grid"
+    ],
+    "suit_ids": [
+      "photo_grammar"
+    ],
+    "common_tags": [
+      "origin:photo",
+      "output:index_card",
+      "structure:grid",
+      "structure:repetition",
+      "theme:institution"
+    ]
+  },
+  {
+    "creator_id": "bi_gan",
+    "display_name": "Bi Gan",
+    "aliases": [
+      "Bi Gan",
+      "BiGan",
+      "bi gan",
+      "毕赣"
+    ],
+    "card_ids": [
+      "bi_gan__time_fog_noir"
+    ],
+    "deck_ids": [
+      "still_storyboard"
+    ],
+    "suit_ids": [
+      "screening"
+    ],
+    "common_tags": [
+      "light:night",
+      "output:cue_sheet",
+      "space:threshold",
+      "structure:sequence_potential",
+      "theme:montage"
+    ]
+  },
+  {
+    "creator_id": "christo_jeanne_claude",
+    "display_name": "Christo & Jeanne-Claude",
+    "aliases": [
+      "Christo",
+      "Christo Jeanne Claude",
+      "Christo and Jeanne-Claude",
+      "Christo&Jeanne-Claude",
+      "Jeanne-Claude",
+      "christo & jeanne-claude",
+      "克里斯托与让娜-克劳德"
+    ],
+    "card_ids": [
+      "christo_jeanne_claude__wrap_project"
+    ],
+    "deck_ids": [
+      "wrap_project"
+    ],
+    "suit_ids": [
+      "installation"
+    ],
+    "common_tags": [
+      "object:form",
+      "output:certificate",
+      "output:wall_label",
+      "space:street",
+      "theme:institution"
+    ]
+  },
+  {
+    "creator_id": "cindy_sherman",
+    "display_name": "Cindy Sherman",
+    "aliases": [
+      "Cindy Sherman",
+      "CindySherman",
+      "cindy sherman",
+      "辛迪·舍曼"
+    ],
+    "card_ids": [
+      "cindy_sherman__untitled_role"
+    ],
+    "deck_ids": [
+      "still_role"
+    ],
+    "suit_ids": [
+      "skin"
+    ],
+    "common_tags": [
+      "output:dossier",
+      "structure:sequence_potential",
+      "theme:performance",
+      "ui:timestamp_overlay"
+    ]
+  },
+  {
+    "creator_id": "daido_moriyama",
+    "display_name": "Daido Moriyama",
+    "aliases": [
+      "Daido Moriyama",
+      "Daido Moriyama（森山大道）",
+      "DaidoMoriyama",
+      "daido moriyama",
+      "森山大道"
+    ],
+    "card_ids": [
+      "daido_moriyama__stray_eye"
+    ],
+    "deck_ids": [
+      "are_bure_boke"
+    ],
+    "suit_ids": [
+      "photo_grammar"
+    ],
+    "common_tags": [
+      "light:night",
+      "quality:lowres",
+      "space:street",
+      "structure:sequence_potential",
+      "theme:memory"
+    ]
+  },
+  {
+    "creator_id": "damien_hirst",
+    "display_name": "Damien Hirst",
+    "aliases": [
+      "Damien Hirst",
+      "DamienHirst",
+      "damien hirst",
+      "达明·赫斯特"
+    ],
+    "card_ids": [
+      "damien_hirst__clinical_display"
+    ],
+    "deck_ids": [
+      "clinical_display"
+    ],
+    "suit_ids": [
+      "installation"
+    ],
+    "common_tags": [
+      "object:catalogue",
+      "object:form",
+      "output:certificate",
+      "output:wall_label",
+      "space:whitecube",
+      "theme:institution"
+    ]
+  },
+  {
+    "creator_id": "duane_michals",
+    "display_name": "Duane Michals",
+    "aliases": [
+      "Duane Michals",
+      "DuaneMichals",
+      "duane michals",
+      "杜安·迈克尔斯"
+    ],
+    "card_ids": [
+      "duane_michals__sequence_handwriting"
+    ],
+    "deck_ids": [
+      "sequence_handwriting"
+    ],
+    "suit_ids": [
+      "photo_grammar"
+    ],
+    "common_tags": [
+      "light:night",
+      "origin:photo",
+      "output:dossier",
+      "structure:sequence_potential",
+      "theme:memory"
+    ]
+  },
+  {
+    "creator_id": "edward_ruscha",
+    "display_name": "Edward Ruscha",
+    "aliases": [
+      "Edward Ruscha",
+      "EdwardRuscha",
+      "edward ruscha",
+      "爱德华·鲁沙"
+    ],
+    "card_ids": [
+      "edward_ruscha__road_index_book"
+    ],
+    "deck_ids": [
+      "index_book_page"
+    ],
+    "suit_ids": [
+      "dossier"
+    ],
+    "common_tags": [
+      "object:form",
+      "object:map",
+      "output:index_card",
+      "space:street",
+      "structure:repetition",
+      "theme:memory"
+    ]
+  },
+  {
+    "creator_id": "ferran_adri",
+    "display_name": "Ferran Adrià",
+    "aliases": [
+      "Ferran Adria",
+      "Ferran Adrià",
+      "Ferran Adrià（El Bulli）",
+      "FerranAdrià",
+      "ferran adrià",
+      "费兰·阿德里亚"
+    ],
+    "card_ids": [
+      "ferran_adri__elbulli_taller"
+    ],
+    "deck_ids": [
+      "r_d_workshop"
+    ],
+    "suit_ids": [
+      "dossier"
+    ],
+    "common_tags": [
+      "object:checklist",
+      "object:form",
+      "space:workbench",
+      "theme:institution",
+      "theme:protocol"
+    ]
+  },
+  {
+    "creator_id": "forensic_architecture",
+    "display_name": "Forensic Architecture",
+    "aliases": [
+      "FA（Forensic Architecture）",
+      "Forensic Architecture",
+      "ForensicArchitecture",
+      "forensic architecture",
+      "法证建筑"
+    ],
+    "card_ids": [
+      "forensic_architecture__counter_forensics"
+    ],
+    "deck_ids": [
+      "evidence_wall"
+    ],
+    "suit_ids": [
+      "dossier"
+    ],
+    "common_tags": [
+      "object:map",
+      "origin:screenshot",
+      "output:board",
+      "theme:evidence",
+      "theme:institution",
+      "ui:timestamp_overlay"
+    ]
+  },
+  {
+    "creator_id": "gregory_crewdson",
+    "display_name": "Gregory Crewdson",
+    "aliases": [
+      "Gregory Crewdson",
+      "GregoryCrewdson",
+      "gregory crewdson",
+      "格里高利·克鲁德森"
+    ],
+    "card_ids": [
+      "gregory_crewdson__single_frame_movie_unit"
+    ],
+    "deck_ids": [
+      "single_frame_movie_unit"
+    ],
+    "suit_ids": [
+      "installation"
+    ],
+    "common_tags": [
+      "light:cinematic",
+      "light:night",
+      "output:call_sheet",
+      "space:threshold",
+      "theme:montage"
+    ]
+  },
+  {
+    "creator_id": "harun_farocki",
+    "display_name": "Harun Farocki",
+    "aliases": [
+      "Harun Farocki",
+      "HarunFarocki",
+      "harun farocki",
+      "哈伦·法罗基"
+    ],
+    "card_ids": [
+      "harun_farocki__eye_machine_montage"
+    ],
+    "deck_ids": [
+      "split_screen"
+    ],
+    "suit_ids": [
+      "mechanism"
+    ],
+    "common_tags": [
+      "origin:screenshot",
+      "output:board",
+      "quality:compressed",
+      "theme:evidence",
+      "theme:institution",
+      "ui:video_player"
+    ]
+  },
+  {
+    "creator_id": "hito_steyerl",
+    "display_name": "Hito Steyerl",
+    "aliases": [
+      "Hito Steyerl",
+      "Hito Steyerl（希托·施泰耶尔）",
+      "HitoSteyerl",
+      "hito steyerl",
+      "希托·施泰耶尔"
+    ],
+    "card_ids": [
+      "hito_steyerl__poor_image_compiler"
+    ],
+    "deck_ids": [
+      "platform_skin"
+    ],
+    "suit_ids": [
+      "skin"
+    ],
+    "common_tags": [
+      "origin:screenshot",
+      "output:receipt",
+      "quality:compressed",
+      "theme:circulation",
+      "theme:visibility",
+      "ui:social_feed",
+      "ui:timestamp_overlay",
+      "ui:watermark"
+    ]
+  },
+  {
+    "creator_id": "hunter_s_thompson",
+    "display_name": "Hunter S. Thompson",
+    "aliases": [
+      "Hunter S Thompson",
+      "HunterS.Thompson",
+      "hunter s. thompson"
+    ],
+    "card_ids": [
+      "hunter_s_thompson__gonzo_bulletin",
+      "hunter_s_thompson__gonzo_dispatch"
+    ],
+    "deck_ids": [
+      "gonzo_bulletin",
+      "gonzo_dispatch"
+    ],
+    "suit_ids": [
+      "skin"
+    ],
+    "common_tags": [
+      "output:dossier",
+      "theme:satire",
+      "origin:photo",
+      "risk:sensitive_scene",
+      "space:street",
+      "theme:institution"
+    ]
+  },
+  {
+    "creator_id": "james_bridle",
+    "display_name": "James Bridle",
+    "aliases": [
+      "James Bridle",
+      "JamesBridle",
+      "james bridle",
+      "詹姆斯·布莱德尔",
+      "詹姆斯·布赖德尔"
+    ],
+    "card_ids": [
+      "james_bridle__system_footnote"
+    ],
+    "deck_ids": [
+      "system_footnote"
+    ],
+    "suit_ids": [
+      "dossier"
+    ],
+    "common_tags": [
+      "origin:screenshot",
+      "output:dossier",
+      "theme:evidence",
+      "theme:institution",
+      "ui:browser"
+    ]
+  },
+  {
+    "creator_id": "janet_cardiff",
+    "display_name": "Janet Cardiff",
+    "aliases": [
+      "Janet Cardiff",
+      "JanetCardiff",
+      "janet cardiff",
+      "珍妮特·卡迪夫"
+    ],
+    "card_ids": [
+      "janet_cardiff__ear_cinema_walk"
+    ],
+    "deck_ids": [
+      "audio_walk"
+    ],
+    "suit_ids": [
+      "screening"
+    ],
+    "common_tags": [
+      "object:map",
+      "space:interior",
+      "space:street",
+      "structure:sequence_potential",
+      "theme:memory",
+      "theme:walk"
+    ]
+  },
+  {
+    "creator_id": "jeff_wall",
+    "display_name": "Jeff Wall",
+    "aliases": [
+      "Jeff Wall",
+      "JeffWall",
+      "Jeffrey Wall",
+      "jeff wall",
+      "杰夫·沃尔"
+    ],
+    "card_ids": [
+      "jeff_wall__lightbox_tableau"
+    ],
+    "deck_ids": [
+      "lightbox_tableau"
+    ],
+    "suit_ids": [
+      "installation"
+    ],
+    "common_tags": [
+      "light:cinematic",
+      "output:call_sheet",
+      "output:wall_label",
+      "space:threshold",
+      "space:whitecube",
+      "theme:montage"
+    ]
+  },
+  {
+    "creator_id": "jenny_holzer",
+    "display_name": "Jenny Holzer",
+    "aliases": [
+      "Jenny Holzer",
+      "JennyHolzer",
+      "jenny holzer",
+      "珍妮·霍尔泽"
+    ],
+    "card_ids": [
+      "jenny_holzer__public_signal"
+    ],
+    "deck_ids": [
+      "public_signal"
+    ],
+    "suit_ids": [
+      "installation"
+    ],
+    "common_tags": [
+      "carrier:led",
+      "carrier:poster",
+      "carrier:projection",
+      "carrier:signage",
+      "output:cue_sheet",
+      "theme:institution"
+    ]
+  },
+  {
+    "creator_id": "joan_didion",
+    "display_name": "Joan Didion",
+    "aliases": [
+      "Joan Didion",
+      "JoanDidion",
+      "joan didion",
+      "琼·迪迪恩"
+    ],
+    "card_ids": [
+      "joan_didion__calm_knife"
+    ],
+    "deck_ids": [
+      "calm_notes"
+    ],
+    "suit_ids": [
+      "dossier"
+    ],
+    "common_tags": [
+      "output:dossier",
+      "structure:sequence_potential",
+      "theme:memory"
+    ]
+  },
+  {
+    "creator_id": "joan_fontcuberta",
+    "display_name": "Joan Fontcuberta",
+    "aliases": [
+      "Joan Fontcuberta",
+      "JoanFontcuberta",
+      "joan fontcuberta",
+      "琼·丰特库贝尔塔"
+    ],
+    "card_ids": [
+      "joan_fontcuberta__photofiction_archive"
+    ],
+    "deck_ids": [
+      "photofiction_archive"
+    ],
+    "suit_ids": [
+      "dossier"
+    ],
+    "common_tags": [
+      "object:archive_box",
+      "origin:scan",
+      "output:dossier",
+      "output:index_card",
+      "theme:institution",
+      "theme:memory"
+    ]
+  },
+  {
+    "creator_id": "mark_dion",
+    "display_name": "Mark Dion",
+    "aliases": [
+      "Mark Dion",
+      "MarkDion",
+      "mark dion",
+      "马克·迪翁"
+    ],
+    "card_ids": [
+      "mark_dion__field_cabinet"
+    ],
+    "deck_ids": [
+      "field_cabinet"
+    ],
+    "suit_ids": [
+      "installation"
+    ],
+    "common_tags": [
+      "object:archive_box",
+      "output:index_card",
+      "space:whitecube",
+      "theme:institution",
+      "theme:memory"
+    ]
+  },
+  {
+    "creator_id": "martin_parr",
+    "display_name": "Martin Parr",
+    "aliases": [
+      "Martin Parr",
+      "MartinParr",
+      "martin parr",
+      "马丁·帕尔"
+    ],
+    "card_ids": [
+      "martin_parr__sunburnt_sociology"
+    ],
+    "deck_ids": [
+      "saturated_flash"
+    ],
+    "suit_ids": [
+      "photo_grammar"
+    ],
+    "common_tags": [
+      "light:flash",
+      "space:street",
+      "structure:sequence_potential",
+      "theme:satire"
+    ]
+  },
+  {
+    "creator_id": "mary_douglas",
+    "display_name": "Mary Douglas",
+    "aliases": [
+      "Mary Douglas",
+      "MaryDouglas",
+      "mary douglas",
+      "玛丽·道格拉斯"
+    ],
+    "card_ids": [
+      "mary_douglas__purity_grid"
+    ],
+    "deck_ids": [
+      "purity_grid"
+    ],
+    "suit_ids": [
+      "dossier"
+    ],
+    "common_tags": [
+      "object:form",
+      "output:dossier",
+      "theme:evidence",
+      "theme:institution"
+    ]
+  },
+  {
+    "creator_id": "maurizio_cattelan",
+    "display_name": "Maurizio Cattelan",
+    "aliases": [
+      "Maurizio Cattelan",
+      "MaurizioCattelan",
+      "maurizio cattelan",
+      "毛里齐奥·卡特兰"
+    ],
+    "card_ids": [
+      "maurizio_cattelan__breaking_lot"
+    ],
+    "deck_ids": [
+      "institutional_press_kit"
+    ],
+    "suit_ids": [
+      "installation"
+    ],
+    "common_tags": [
+      "carrier:signage",
+      "object:catalogue",
+      "object:certificate",
+      "output:certificate",
+      "space:whitecube",
+      "theme:institution"
+    ]
+  },
+  {
+    "creator_id": "mona_chalabi",
+    "display_name": "Mona Chalabi",
+    "aliases": [
+      "Mona Chalabi",
+      "MonaChalabi",
+      "mona chalabi",
+      "莫娜·沙拉比"
+    ],
+    "card_ids": [
+      "mona_chalabi__hand_drawn_data"
+    ],
+    "deck_ids": [
+      "handdrawn_data"
+    ],
+    "suit_ids": [
+      "dossier"
+    ],
+    "common_tags": [
+      "object:form",
+      "origin:screenshot",
+      "output:board",
+      "theme:evidence",
+      "theme:institution",
+      "ui:browser"
+    ]
+  },
+  {
+    "creator_id": "nan_goldin",
+    "display_name": "Nan Goldin",
+    "aliases": [
+      "Nan Goldin",
+      "NanGoldin",
+      "nan goldin",
+      "南·戈丁"
+    ],
+    "card_ids": [
+      "nan_goldin__ballad_slideshow"
+    ],
+    "deck_ids": [
+      "slideshow"
+    ],
+    "suit_ids": [
+      "screening"
+    ],
+    "common_tags": [
+      "origin:photo",
+      "output:cue_sheet",
+      "space:blackbox",
+      "structure:sequence_potential",
+      "theme:memory"
+    ]
+  },
+  {
+    "creator_id": "on_kawara",
+    "display_name": "On Kawara",
+    "aliases": [
+      "On Kawara",
+      "OnKawara",
+      "on kawara",
+      "河原温"
+    ],
+    "card_ids": [
+      "on_kawara__today_proof_of_life"
+    ],
+    "deck_ids": [
+      "date_board"
+    ],
+    "suit_ids": [
+      "serial"
+    ],
+    "common_tags": [
+      "object:map",
+      "origin:photo",
+      "output:receipt",
+      "structure:sequence_potential",
+      "theme:protocol"
+    ]
+  },
+  {
+    "creator_id": "orson_welles",
+    "display_name": "Orson Welles",
+    "aliases": [
+      "Orson Welles",
+      "OrsonWelles",
+      "orson welles",
+      "奥逊·威尔斯"
+    ],
+    "card_ids": [
+      "orson_welles__f_fake_essay_engine"
+    ],
+    "deck_ids": [
+      "essay_film"
+    ],
+    "suit_ids": [
+      "screening"
+    ],
+    "common_tags": [
+      "origin:screenshot",
+      "output:cue_sheet",
+      "quality:compressed",
+      "theme:institution",
+      "theme:montage"
+    ]
+  },
+  {
+    "creator_id": "philip_lorca_dicorcia",
+    "display_name": "Philip-Lorca diCorcia",
+    "aliases": [
+      "Philip Lorca diCorcia",
+      "Philip diCorcia",
+      "Philip-LorcadiCorcia",
+      "philip-lorca dicorcia",
+      "菲利普·洛尔卡·迪科西亚"
+    ],
+    "card_ids": [
+      "philip_lorca_dicorcia__flash_zone"
+    ],
+    "deck_ids": [
+      "flash_zone"
+    ],
+    "suit_ids": [
+      "mechanism"
+    ],
+    "common_tags": [
+      "light:flash",
+      "output:board",
+      "risk:face_clear",
+      "space:street",
+      "theme:visibility"
+    ]
+  },
+  {
+    "creator_id": "ren_magritte",
+    "display_name": "René Magritte",
+    "aliases": [
+      "Rene Magritte",
+      "René Magritte",
+      "RenéMagritte",
+      "rené magritte",
+      "雷内·马格利特"
+    ],
+    "card_ids": [
+      "ren_magritte__this_is_not"
+    ],
+    "deck_ids": [
+      "caption_trap"
+    ],
+    "suit_ids": [
+      "installation"
+    ],
+    "common_tags": [
+      "carrier:signage",
+      "output:wall_label",
+      "theme:institution",
+      "ui:watermark"
+    ]
+  },
+  {
+    "creator_id": "roman_opalka",
+    "display_name": "Roman Opalka",
+    "aliases": [
+      "Roman Opalka",
+      "RomanOpalka",
+      "roman opalka",
+      "罗曼·欧帕尔卡"
+    ],
+    "card_ids": [
+      "roman_opalka__infinite_count"
+    ],
+    "deck_ids": [
+      "infinite_count"
+    ],
+    "suit_ids": [
+      "serial"
+    ],
+    "common_tags": [
+      "output:dossier",
+      "structure:repetition",
+      "structure:sequence_potential",
+      "theme:protocol"
+    ]
+  },
+  {
+    "creator_id": "sophie_calle",
+    "display_name": "Sophie Calle",
+    "aliases": [
+      "Sophie Calle",
+      "SophieCalle",
+      "sophie calle",
+      "索菲·卡尔"
+    ],
+    "card_ids": [
+      "sophie_calle__prenez_soin_de_limage"
+    ],
+    "deck_ids": [
+      "dossier_chorus"
+    ],
+    "suit_ids": [
+      "dossier"
+    ],
+    "common_tags": [
+      "origin:photo",
+      "output:dossier",
+      "risk:face_clear",
+      "theme:institution",
+      "theme:memory"
+    ]
+  },
+  {
+    "creator_id": "susan_sontag",
+    "display_name": "Susan Sontag",
+    "aliases": [
+      "Susan Sontag",
+      "SusanSontag",
+      "susan sontag",
+      "苏珊·桑塔格"
+    ],
+    "card_ids": [
+      "susan_sontag__ethics_of_seeing"
+    ],
+    "deck_ids": [
+      "ethics_footnote"
+    ],
+    "suit_ids": [
+      "dossier"
+    ],
+    "common_tags": [
+      "origin:photo",
+      "output:dossier",
+      "risk:face_clear",
+      "risk:sensitive_scene",
+      "theme:visibility"
+    ]
+  },
+  {
+    "creator_id": "taryn_simon",
+    "display_name": "Taryn Simon",
+    "aliases": [
+      "Taryn Simon",
+      "TarynSimon",
+      "taryn simon",
+      "塔琳·西蒙"
+    ],
+    "card_ids": [
+      "taryn_simon__hidden_index"
+    ],
+    "deck_ids": [
+      "index_card"
+    ],
+    "suit_ids": [
+      "dossier"
+    ],
+    "common_tags": [
+      "object:archive_box",
+      "object:form",
+      "origin:scan",
+      "output:index_card",
+      "theme:institution",
+      "theme:memory"
+    ]
+  },
+  {
+    "creator_id": "tehching_hsieh",
+    "display_name": "Tehching Hsieh",
+    "aliases": [
+      "Tehching Hsieh",
+      "TehchingHsieh",
+      "tehching hsieh",
+      "谢德庆"
+    ],
+    "card_ids": [
+      "tehching_hsieh__one_year_protocol"
+    ],
+    "deck_ids": [
+      "one_year_protocol"
+    ],
+    "suit_ids": [
+      "serial"
+    ],
+    "common_tags": [
+      "object:form",
+      "output:checklist",
+      "structure:sequence_potential",
+      "theme:protocol"
+    ]
+  },
+  {
+    "creator_id": "the_onion",
+    "display_name": "The Onion",
+    "aliases": [
+      "The Onion",
+      "The Onion News",
+      "TheOnion",
+      "the onion",
+      "洋葱新闻"
+    ],
+    "card_ids": [
+      "the_onion__satire_front_page"
+    ],
+    "deck_ids": [
+      "satire_front_page"
+    ],
+    "suit_ids": [
+      "skin"
+    ],
+    "common_tags": [
+      "carrier:signage",
+      "origin:screenshot",
+      "output:wall_label",
+      "theme:satire",
+      "ui:browser"
+    ]
+  },
+  {
+    "creator_id": "toiletpaper",
+    "display_name": "TOILETPAPER",
+    "aliases": [
+      "TOILETPAPER",
+      "TOILETPAPER Magazine",
+      "toiletpaper"
+    ],
+    "card_ids": [
+      "toiletpaper__no_text_shock_image"
+    ],
+    "deck_ids": [
+      "no_text_shock_spread"
+    ],
+    "suit_ids": [
+      "skin"
+    ],
+    "common_tags": [
+      "light:flash",
+      "output:board",
+      "structure:repetition",
+      "theme:montage"
+    ]
+  },
+  {
+    "creator_id": "tom_sachs",
+    "display_name": "Tom Sachs",
+    "aliases": [
+      "Tom Sachs",
+      "TomSachs",
+      "tom sachs",
+      "汤姆·萨克斯"
+    ],
+    "card_ids": [
+      "tom_sachs__work_to_code"
+    ],
+    "deck_ids": [
+      "workshop_manual"
+    ],
+    "suit_ids": [
+      "dossier"
+    ],
+    "common_tags": [
+      "object:certificate",
+      "object:checklist",
+      "space:workbench",
+      "theme:institution",
+      "theme:protocol"
+    ]
+  },
+  {
+    "creator_id": "trevor_paglen",
+    "display_name": "Trevor Paglen",
+    "aliases": [
+      "Trevor Paglen",
+      "TrevorPaglen",
+      "trevor paglen",
+      "特雷弗·帕格伦"
+    ],
+    "card_ids": [
+      "trevor_paglen__invisible_systems"
+    ],
+    "deck_ids": [
+      "invisible_systems"
+    ],
+    "suit_ids": [
+      "mechanism"
+    ],
+    "common_tags": [
+      "origin:screenshot",
+      "output:board",
+      "theme:institution",
+      "theme:visibility",
+      "ui:video_player"
+    ]
+  },
+  {
+    "creator_id": "vice_early_era",
+    "display_name": "VICE early-era",
+    "aliases": [
+      "VICE",
+      "VICE (early era)",
+      "VICE early era",
+      "VICEearly-era",
+      "Vice",
+      "Vice Media",
+      "vice early-era",
+      "维斯"
+    ],
+    "card_ids": [
+      "vice_early_era__access_all_areas_zine"
+    ],
+    "deck_ids": [
+      "zine_spread"
+    ],
+    "suit_ids": [
+      "skin"
+    ],
+    "common_tags": [
+      "origin:photo",
+      "output:dossier",
+      "quality:compressed",
+      "theme:institution",
+      "ui:watermark"
+    ]
+  },
+  {
+    "creator_id": "walid_raad",
+    "display_name": "Walid Raad",
+    "aliases": [
+      "Walid Raad",
+      "WalidRaad",
+      "walid raad",
+      "瓦利德·拉德"
+    ],
+    "card_ids": [
+      "walid_raad__atlas_counter_archive"
+    ],
+    "deck_ids": [
+      "counter_archive"
+    ],
+    "suit_ids": [
+      "dossier"
+    ],
+    "common_tags": [
+      "object:archive_box",
+      "origin:scan",
+      "output:index_card",
+      "theme:institution",
+      "theme:memory"
+    ]
+  },
+  {
+    "creator_id": "yayoi_kusama",
+    "display_name": "Yayoi Kusama",
+    "aliases": [
+      "Yayoi Kusama",
+      "YayoiKusama",
+      "yayoi kusama",
+      "草间弥生"
+    ],
+    "card_ids": [
+      "yayoi_kusama__infinity_dot_room"
+    ],
+    "deck_ids": [
+      "infinity_dot_room"
+    ],
+    "suit_ids": [
+      "installation"
+    ],
+    "common_tags": [
+      "light:night",
+      "output:wall_label",
+      "space:whitecube",
+      "structure:repetition",
+      "theme:memory"
+    ]
+  }
+]

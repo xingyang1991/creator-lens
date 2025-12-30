@@ -1,0 +1,31 @@
+{
+  "card_id": "adam_curtis__archive_cold_open",
+  "creator": "Adam Curtis",
+  "creator_raw": "Adam Curtis",
+  "card_name_en": "ARCHIVE COLD OPEN",
+  "card_name_zh": "无旁白档案蒙太奇",
+  "suit_id": "screening",
+  "suit_ui": "放映",
+  "deck_id": "archive_montage",
+  "deck_ui": "档案蒙太奇",
+  "tags": [
+    "creator:adam_curtis",
+    "deck:archive_montage",
+    "origin:screenshot",
+    "quality:compressed",
+    "structure:sequence_potential",
+    "suit:screening",
+    "theme:montage",
+    "ui:video_player"
+  ],
+  "risk_level": 1,
+  "sharpness": 0.7,
+  "content_markdown_path": "cards/markdown/adam_curtis__archive_cold_open.md",
+  "source": {
+    "type": "pack",
+    "pack": "artist_cases_pack_v4",
+    "original_file": "03_Adam_Curtis.md",
+    "original_relpath": "source_packs/artist_cases_pack_v4/03_Adam_Curtis.md"
+  },
+  "version": "1.0"
+}

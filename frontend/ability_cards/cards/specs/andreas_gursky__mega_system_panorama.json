@@ -1,0 +1,31 @@
+{
+  "card_id": "andreas_gursky__mega_system_panorama",
+  "creator": "Andreas Gursky",
+  "creator_raw": "Andreas Gursky",
+  "card_name_en": "MEGA SYSTEM PANORAMA",
+  "card_name_zh": "巨幅系统全景",
+  "suit_id": "mechanism",
+  "suit_ui": "拆机",
+  "deck_id": "panorama_zoom",
+  "deck_ui": "全景放大窗",
+  "tags": [
+    "creator:andreas_gursky",
+    "deck:panorama_zoom",
+    "origin:photo",
+    "output:board",
+    "structure:panorama",
+    "structure:repetition",
+    "suit:mechanism",
+    "theme:institution"
+  ],
+  "risk_level": 0,
+  "sharpness": 0.6,
+  "content_markdown_path": "cards/markdown/andreas_gursky__mega_system_panorama.md",
+  "source": {
+    "type": "pack",
+    "pack": "image_creator_cases_pack_v1",
+    "original_file": "05_Andreas_Gursky.md",
+    "original_relpath": "source_packs/image_creator_cases_pack_v1/05_Andreas_Gursky.md"
+  },
+  "version": "1.0"
+}

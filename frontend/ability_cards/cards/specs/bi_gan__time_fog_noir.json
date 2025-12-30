@@ -1,0 +1,31 @@
+{
+  "card_id": "bi_gan__time_fog_noir",
+  "creator": "Bi Gan",
+  "creator_raw": "毕赣",
+  "card_name_en": "TIME FOG NOIR",
+  "card_name_zh": "时间雾·黑夜散文",
+  "suit_id": "screening",
+  "suit_ui": "放映",
+  "deck_id": "still_storyboard",
+  "deck_ui": "静帧分镜页",
+  "tags": [
+    "creator:bi_gan",
+    "deck:still_storyboard",
+    "light:night",
+    "output:cue_sheet",
+    "space:threshold",
+    "structure:sequence_potential",
+    "suit:screening",
+    "theme:montage"
+  ],
+  "risk_level": 0,
+  "sharpness": 0.6,
+  "content_markdown_path": "cards/markdown/bi_gan__time_fog_noir.md",
+  "source": {
+    "type": "pack",
+    "pack": "image_creator_cases_pack_v1",
+    "original_file": "04_Bi_Gan.md",
+    "original_relpath": "source_packs/image_creator_cases_pack_v1/04_Bi_Gan.md"
+  },
+  "version": "1.0"
+}

@@ -1,0 +1,30 @@
+{
+  "card_id": "tehching_hsieh__one_year_protocol",
+  "creator": "Tehching Hsieh",
+  "creator_raw": "Tehching Hsieh",
+  "card_name_en": "ONE-YEAR PROTOCOL",
+  "card_name_zh": "一年协议卡",
+  "suit_id": "serial",
+  "suit_ui": "连载",
+  "deck_id": "one_year_protocol",
+  "deck_ui": "年度协议",
+  "tags": [
+    "creator:tehching_hsieh",
+    "deck:one_year_protocol",
+    "object:form",
+    "output:checklist",
+    "structure:sequence_potential",
+    "suit:serial",
+    "theme:protocol"
+  ],
+  "risk_level": 0,
+  "sharpness": 0.45,
+  "content_markdown_path": "cards/markdown/tehching_hsieh__one_year_protocol.md",
+  "source": {
+    "type": "pack",
+    "pack": "artist_cases_pack_v4",
+    "original_file": "09_Tehching_Hsieh.md",
+    "original_relpath": "source_packs/artist_cases_pack_v4/09_Tehching_Hsieh.md"
+  },
+  "version": "1.0"
+}

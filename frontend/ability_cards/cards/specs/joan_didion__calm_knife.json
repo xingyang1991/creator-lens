@@ -1,0 +1,29 @@
+{
+  "card_id": "joan_didion__calm_knife",
+  "creator": "Joan Didion",
+  "creator_raw": "Joan Didion",
+  "card_name_en": "CALM KNIFE",
+  "card_name_zh": "冷刀笔记",
+  "suit_id": "dossier",
+  "suit_ui": "卷宗",
+  "deck_id": "calm_notes",
+  "deck_ui": "冷笔记页",
+  "tags": [
+    "creator:joan_didion",
+    "deck:calm_notes",
+    "output:dossier",
+    "structure:sequence_potential",
+    "suit:dossier",
+    "theme:memory"
+  ],
+  "risk_level": 0,
+  "sharpness": 0.65,
+  "content_markdown_path": "cards/markdown/joan_didion__calm_knife.md",
+  "source": {
+    "type": "pack",
+    "pack": "artist_cases_pack_v4",
+    "original_file": "11_Joan_Didion.md",
+    "original_relpath": "source_packs/artist_cases_pack_v4/11_Joan_Didion.md"
+  },
+  "version": "1.0"
+}

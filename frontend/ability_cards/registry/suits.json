@@ -1,0 +1,42 @@
+[
+  {
+    "suit_id": "dossier",
+    "suit_ui": "卷宗",
+    "description": "把图像当作文件/证据/索引来处理：编号、元数据、缺口与可反驳点。"
+  },
+  {
+    "suit_id": "skin",
+    "suit_ui": "皮肤",
+    "description": "把图像放进平台/媒体外壳：UI痕迹、标题、头版、时间线、流通痕迹。"
+  },
+  {
+    "suit_id": "screening",
+    "suit_ui": "放映",
+    "description": "把图像当作一段观看过程：幻灯、讲座、随笔电影、静帧分镜、音频行走。"
+  },
+  {
+    "suit_id": "mechanism",
+    "suit_ui": "拆机",
+    "description": "把图像当作正在工作的系统：双屏对照、不可见机制、阈值/热区、操作影像。"
+  },
+  {
+    "suit_id": "installation",
+    "suit_ui": "展厅",
+    "description": "把图像转成可展陈对象：灯箱、装置现场、公共标语、机构新闻包、剧组拍摄证据。"
+  },
+  {
+    "suit_id": "serial",
+    "suit_ui": "连载",
+    "description": "把单张图像纳入连续的日常协议：日期确认、年度挑战、无尽计数。"
+  },
+  {
+    "suit_id": "photo_grammar",
+    "suit_ui": "摄影谱",
+    "description": "把图像当成摄影语法练习：类型学网格、闪光社会学、粗粒散焦、手写序列。"
+  },
+  {
+    "suit_id": "roadbook",
+    "suit_ui": "路书",
+    "description": "把图像当作路途中一个停靠点：公路书页、田野笔记、路线与章节。"
+  }
+]

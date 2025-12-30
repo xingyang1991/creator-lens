@@ -1,0 +1,31 @@
+{
+  "card_id": "james_bridle__system_footnote",
+  "creator": "James Bridle",
+  "creator_raw": "James Bridle",
+  "card_name_en": "SYSTEM FOOTNOTE",
+  "card_name_zh": "系统脚注板",
+  "suit_id": "dossier",
+  "suit_ui": "卷宗",
+  "deck_id": "system_footnote",
+  "deck_ui": "系统脚注页",
+  "tags": [
+    "creator:james_bridle",
+    "deck:system_footnote",
+    "origin:screenshot",
+    "output:dossier",
+    "suit:dossier",
+    "theme:evidence",
+    "theme:institution",
+    "ui:browser"
+  ],
+  "risk_level": 0,
+  "sharpness": 0.7,
+  "content_markdown_path": "cards/markdown/james_bridle__system_footnote.md",
+  "source": {
+    "type": "pack",
+    "pack": "artist_cases_pack_v4",
+    "original_file": "05_James_Bridle.md",
+    "original_relpath": "source_packs/artist_cases_pack_v4/05_James_Bridle.md"
+  },
+  "version": "1.0"
+}

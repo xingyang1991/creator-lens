@@ -1,0 +1,30 @@
+{
+  "card_id": "forensic_architecture__counter_forensics",
+  "creator": "Forensic Architecture",
+  "creator_raw": "Forensic Architecture",
+  "card_name_en": "COUNTER-FORENSICS",
+  "card_name_zh": "证据板编译器",
+  "suit_id": "dossier",
+  "suit_ui": "卷宗",
+  "deck_id": "evidence_wall",
+  "deck_ui": "证据墙",
+  "tags": [
+    "creator:forensic_architecture",
+    "deck:evidence_wall",
+    "object:map",
+    "origin:screenshot",
+    "output:board",
+    "suit:dossier",
+    "theme:evidence",
+    "theme:institution",
+    "ui:timestamp_overlay"
+  ],
+  "risk_level": 1,
+  "sharpness": 0.78,
+  "content_markdown_path": "cards/markdown/forensic_architecture__counter_forensics.md",
+  "source": {
+    "type": "conversation",
+    "note": "Card spec written in prior rounds; packaged for dev team."
+  },
+  "version": "1.0"
+}

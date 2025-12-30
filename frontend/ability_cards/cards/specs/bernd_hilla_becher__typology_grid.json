@@ -1,0 +1,31 @@
+{
+  "card_id": "bernd_hilla_becher__typology_grid",
+  "creator": "Bernd & Hilla Becher",
+  "creator_raw": "Bernd & Hilla Becher",
+  "card_name_en": "TYPOLOGY GRID",
+  "card_name_zh": "工业类型学网格",
+  "suit_id": "photo_grammar",
+  "suit_ui": "摄影谱",
+  "deck_id": "typology_grid",
+  "deck_ui": "类型学网格",
+  "tags": [
+    "creator:bernd_hilla_becher",
+    "deck:typology_grid",
+    "origin:photo",
+    "output:index_card",
+    "structure:grid",
+    "structure:repetition",
+    "suit:photo_grammar",
+    "theme:institution"
+  ],
+  "risk_level": 0,
+  "sharpness": 0.45,
+  "content_markdown_path": "cards/markdown/bernd_hilla_becher__typology_grid.md",
+  "source": {
+    "type": "pack",
+    "pack": "artist_cases_pack_v4",
+    "original_file": "07_Becher.md",
+    "original_relpath": "source_packs/artist_cases_pack_v4/07_Becher.md"
+  },
+  "version": "1.0"
+}

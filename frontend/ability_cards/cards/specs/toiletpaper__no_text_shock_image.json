@@ -1,0 +1,30 @@
+{
+  "card_id": "toiletpaper__no_text_shock_image",
+  "creator": "TOILETPAPER",
+  "creator_raw": "TOILETPAPER",
+  "card_name_en": "NO-TEXT SHOCK IMAGE",
+  "card_name_zh": "无文章图像爆破",
+  "suit_id": "skin",
+  "suit_ui": "皮肤",
+  "deck_id": "no_text_shock_spread",
+  "deck_ui": "无文封面跨页",
+  "tags": [
+    "creator:toiletpaper",
+    "deck:no_text_shock_spread",
+    "light:flash",
+    "output:board",
+    "structure:repetition",
+    "suit:skin",
+    "theme:montage"
+  ],
+  "risk_level": 1,
+  "sharpness": 0.8,
+  "content_markdown_path": "cards/markdown/toiletpaper__no_text_shock_image.md",
+  "source": {
+    "type": "pack",
+    "pack": "image_creator_cases_pack_v1",
+    "original_file": "03_TOILETPAPER.md",
+    "original_relpath": "source_packs/image_creator_cases_pack_v1/03_TOILETPAPER.md"
+  },
+  "version": "1.0"
+}

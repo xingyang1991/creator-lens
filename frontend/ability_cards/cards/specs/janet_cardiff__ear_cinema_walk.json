@@ -1,0 +1,30 @@
+{
+  "card_id": "janet_cardiff__ear_cinema_walk",
+  "creator": "Janet Cardiff",
+  "creator_raw": "Janet Cardiff",
+  "card_name_en": "EAR-CINEMA WALK",
+  "card_name_zh": "耳机行走放映机",
+  "suit_id": "screening",
+  "suit_ui": "放映",
+  "deck_id": "audio_walk",
+  "deck_ui": "耳机行走谱",
+  "tags": [
+    "creator:janet_cardiff",
+    "deck:audio_walk",
+    "object:map",
+    "space:interior",
+    "space:street",
+    "structure:sequence_potential",
+    "suit:screening",
+    "theme:memory",
+    "theme:walk"
+  ],
+  "risk_level": 1,
+  "sharpness": 0.55,
+  "content_markdown_path": "cards/markdown/janet_cardiff__ear_cinema_walk.md",
+  "source": {
+    "type": "conversation",
+    "note": "Card spec written in prior rounds; packaged for dev team."
+  },
+  "version": "1.0"
+}

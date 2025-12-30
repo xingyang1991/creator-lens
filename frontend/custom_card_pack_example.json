@@ -1,0 +1,30 @@
+{
+  "version": "v1",
+  "name": "Example Custom Pack",
+  "suits": [
+    {
+      "suit_id": "custom_suit",
+      "suit_ui": "CUSTOM",
+      "description": "示例自定义卡组：用来验证导入机制是否工作。"
+    }
+  ],
+  "cards": [
+    {
+      "spec": {
+        "card_id": "custom__my_lens",
+        "creator": "Your Name",
+        "card_name_en": "My Lens",
+        "card_name_zh": "我的镜头",
+        "suit_id": "custom_suit",
+        "suit_ui": "CUSTOM",
+        "deck_id": "custom_deck",
+        "deck_ui": "自定义卡组",
+        "tags": ["origin:photo", "theme:custom", "structure:sequence_potential"],
+        "risk_level": 0,
+        "sharpness": 0.7,
+        "content_markdown_path": "custom__my_lens.md"
+      },
+      "markdown": "# My Lens / 我的镜头\n\n**创作者**：Your Name\n\n---\n\n## 1) strong_bias\n把任何一张图都当作“未完成的草稿”，强调可迭代与版本化。\n\n## 2) fixed_outputs\n- 输出：3 个可迭代版本差异点\n- 输出：1 条自我校正的免责声明\n\n## 3) visual_spec\n- 视觉：保留主体，但增加‘版本标注’与‘修订痕迹’的质感\n- 材质：纸张、批注、贴纸、裁切边缘\n\n## 4) artifacts\n- A：版本差异表（v1 / v2 / v3）\n- B：改动理由（不确定性标注）\n\n## 5) director_spec\n- **Variation**: 做 3 个版本（细微差异）| 做 1 个极端版本\n- **Annotation**: 少量批注 | 密集批注\n"
+    }
+  ]
+}

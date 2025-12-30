@@ -1,0 +1,7 @@
+{
+  "name": "Copy of 创作者Lens V1",
+  "description": "A world-class artistic curation and captioning tool powered by Gemini, following a strict 8-screen state machine for archival storytelling.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

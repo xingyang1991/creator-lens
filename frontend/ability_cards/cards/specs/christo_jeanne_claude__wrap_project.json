@@ -1,0 +1,31 @@
+{
+  "card_id": "christo_jeanne_claude__wrap_project",
+  "creator": "Christo & Jeanne-Claude",
+  "creator_raw": "Christo & Jeanne-Claude",
+  "card_name_en": "WRAP PROJECT",
+  "card_name_zh": "临时公共工程编译器",
+  "suit_id": "installation",
+  "suit_ui": "展厅",
+  "deck_id": "wrap_project",
+  "deck_ui": "工程装置包",
+  "tags": [
+    "creator:christo_jeanne_claude",
+    "deck:wrap_project",
+    "object:form",
+    "output:certificate",
+    "output:wall_label",
+    "space:street",
+    "suit:installation",
+    "theme:institution"
+  ],
+  "risk_level": 0,
+  "sharpness": 0.5,
+  "content_markdown_path": "cards/markdown/christo_jeanne_claude__wrap_project.md",
+  "source": {
+    "type": "pack",
+    "pack": "artist_cases_pack_v2",
+    "original_file": "01_ChristoJeanneClaude_WRAP_PROJECT.md",
+    "original_relpath": "source_packs/artist_cases_pack_v2/01_ChristoJeanneClaude_WRAP_PROJECT.md"
+  },
+  "version": "1.0"
+}

@@ -1,0 +1,29 @@
+{
+  "card_id": "sophie_calle__prenez_soin_de_limage",
+  "creator": "Sophie Calle",
+  "creator_raw": "Sophie Calle",
+  "card_name_en": "PRENEZ SOIN DE L’IMAGE",
+  "card_name_zh": "合唱卷宗",
+  "suit_id": "dossier",
+  "suit_ui": "卷宗",
+  "deck_id": "dossier_chorus",
+  "deck_ui": "合唱卷宗",
+  "tags": [
+    "creator:sophie_calle",
+    "deck:dossier_chorus",
+    "origin:photo",
+    "output:dossier",
+    "risk:face_clear",
+    "suit:dossier",
+    "theme:institution",
+    "theme:memory"
+  ],
+  "risk_level": 1,
+  "sharpness": 0.7,
+  "content_markdown_path": "cards/markdown/sophie_calle__prenez_soin_de_limage.md",
+  "source": {
+    "type": "conversation",
+    "note": "Card spec written in prior rounds; packaged for dev team."
+  },
+  "version": "1.0"
+}

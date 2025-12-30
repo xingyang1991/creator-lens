@@ -1,0 +1,29 @@
+{
+  "card_id": "tom_sachs__work_to_code",
+  "creator": "Tom Sachs",
+  "creator_raw": "Tom Sachs",
+  "card_name_en": "WORK TO CODE",
+  "card_name_zh": "规程手册包",
+  "suit_id": "dossier",
+  "suit_ui": "卷宗",
+  "deck_id": "workshop_manual",
+  "deck_ui": "规程手册包",
+  "tags": [
+    "creator:tom_sachs",
+    "deck:workshop_manual",
+    "object:certificate",
+    "object:checklist",
+    "space:workbench",
+    "suit:dossier",
+    "theme:institution",
+    "theme:protocol"
+  ],
+  "risk_level": 0,
+  "sharpness": 0.6,
+  "content_markdown_path": "cards/markdown/tom_sachs__work_to_code.md",
+  "source": {
+    "type": "conversation",
+    "note": "Card spec written in prior rounds; packaged for dev team."
+  },
+  "version": "1.0"
+}

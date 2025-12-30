@@ -1,0 +1,2341 @@
+[
+  {
+    "deck_id": "calm_notes",
+    "deck_ui": "冷笔记页",
+    "suit_id": "dossier",
+    "suit_ui": "卷宗",
+    "description": "Didion 式冷静切割：观察条目＋句子刀锋＋自我克制。",
+    "modules": [
+      {
+        "module_id": "note_page",
+        "required": true,
+        "desc": "笔记页（条目化）",
+        "format": "text"
+      },
+      {
+        "module_id": "knife_sentences",
+        "required": true,
+        "desc": "钉子句（3-5）",
+        "format": "text"
+      }
+    ],
+    "tags_primary": [
+      "theme:memory",
+      "output:dossier"
+    ],
+    "tags_secondary": [
+      "structure:sequence_potential"
+    ],
+    "default_risk_level": 0,
+    "default_sharpness": 0.65,
+    "safety_defaults": {
+      "default_redaction": [],
+      "default_disclaimer": "reflective_not_report"
+    },
+    "version": "1.0"
+  },
+  {
+    "deck_id": "counter_archive",
+    "deck_ui": "幽灵档案卷",
+    "suit_id": "dossier",
+    "suit_ui": "卷宗",
+    "description": "Walid Raad 式反档案：FOUND/PRODUCED 文件身份＋索引交叉引用＋缺失文件通知＋讲座脚本（可选）。",
+    "modules": [
+      {
+        "module_id": "main_visual_archive_page",
+        "required": true,
+        "desc": "反档案卷宗页（编号/元数据/遮蔽/交叉引用）",
+        "format": "image"
+      },
+      {
+        "module_id": "context_reading_room",
+        "required": true,
+        "desc": "阅读室/展厅档案陈列现场",
+        "format": "image"
+      },
+      {
+        "module_id": "file_abstract",
+        "required": true,
+        "desc": "文件摘要（机构口吻）",
+        "format": "text"
+      },
+      {
+        "module_id": "classification_index",
+        "required": true,
+        "desc": "分类索引卡（交叉引用）",
+        "format": "text"
+      },
+      {
+        "module_id": "missing_file_notice",
+        "required": true,
+        "desc": "缺失文件通知",
+        "format": "text"
+      }
+    ],
+    "tags_primary": [
+      "object:archive_box",
+      "origin:scan",
+      "theme:memory"
+    ],
+    "tags_secondary": [
+      "theme:institution",
+      "output:index_card"
+    ],
+    "default_risk_level": 1,
+    "default_sharpness": 0.72,
+    "safety_defaults": {
+      "default_redaction": [
+        "face",
+        "address_text"
+      ],
+      "default_disclaimer": "fictional_counter_archive"
+    },
+    "version": "1.0"
+  },
+  {
+    "deck_id": "dossier_chorus",
+    "deck_ui": "合唱卷宗",
+    "suit_id": "dossier",
+    "suit_ui": "卷宗",
+    "description": "Sophie Calle 式：同一图像的多职业合唱解读＋事实/推测双栏＋展签＋封口便签。",
+    "modules": [
+      {
+        "module_id": "main_visual_dossier",
+        "required": true,
+        "desc": "卷宗档案板主视觉（贴附/遮蔽/编号）",
+        "format": "image"
+      },
+      {
+        "module_id": "context_exhibit_wall",
+        "required": true,
+        "desc": "展厅并列文本+照片现场",
+        "format": "image"
+      },
+      {
+        "module_id": "chorus_12",
+        "required": true,
+        "desc": "证词合唱（12位）",
+        "format": "text"
+      },
+      {
+        "module_id": "fact_vs_conjecture",
+        "required": true,
+        "desc": "事实/推测双栏",
+        "format": "text"
+      },
+      {
+        "module_id": "sealed_note",
+        "required": false,
+        "desc": "封口便签（可选）",
+        "format": "text"
+      }
+    ],
+    "tags_primary": [
+      "theme:memory",
+      "theme:institution",
+      "output:dossier"
+    ],
+    "tags_secondary": [
+      "risk:face_clear",
+      "origin:photo"
+    ],
+    "default_risk_level": 1,
+    "default_sharpness": 0.7,
+    "safety_defaults": {
+      "default_redaction": [
+        "face",
+        "address_text"
+      ],
+      "default_disclaimer": "fictional_chorus_no_tracking"
+    },
+    "version": "1.0"
+  },
+  {
+    "deck_id": "ethics_footnote",
+    "deck_ui": "伦理脚注页",
+    "suit_id": "dossier",
+    "suit_ui": "卷宗",
+    "description": "Sontag 式：观看伦理脚注，避免猎奇与指控，强调观看的责任。",
+    "modules": [
+      {
+        "module_id": "thesis",
+        "required": true,
+        "desc": "反直觉断言（1句）",
+        "format": "text"
+      },
+      {
+        "module_id": "footnotes",
+        "required": true,
+        "desc": "脚注条目（8-12）",
+        "format": "text"
+      },
+      {
+        "module_id": "do_not_list",
+        "required": true,
+        "desc": "禁用清单（如何不看）",
+        "format": "text"
+      }
+    ],
+    "tags_primary": [
+      "risk:sensitive_scene",
+      "theme:visibility",
+      "output:dossier"
+    ],
+    "tags_secondary": [
+      "risk:face_clear",
+      "origin:photo"
+    ],
+    "default_risk_level": 1,
+    "default_sharpness": 0.75,
+    "safety_defaults": {
+      "default_redaction": [
+        "face",
+        "address_text"
+      ],
+      "default_disclaimer": "ethics_first"
+    },
+    "version": "1.0"
+  },
+  {
+    "deck_id": "evidence_wall",
+    "deck_ui": "证据墙",
+    "suit_id": "dossier",
+    "suit_ui": "卷宗",
+    "description": "FA/Bellingcat 式证据板：6点标注+放大窗+时间线+观察/推断/缺失+不确定性日志。",
+    "modules": [
+      {
+        "module_id": "main_visual_evidence_board",
+        "required": true,
+        "desc": "证据板主页面（6点标注+2放大窗）",
+        "format": "image"
+      },
+      {
+        "module_id": "timeline_t2_t2",
+        "required": true,
+        "desc": "T-2…T+2 时间线（带缺口）",
+        "format": "text"
+      },
+      {
+        "module_id": "obs_inf_gap_table",
+        "required": true,
+        "desc": "观察/推断/缺失表",
+        "format": "text"
+      },
+      {
+        "module_id": "uncertainty_falsification",
+        "required": true,
+        "desc": "不确定性日志&可反驳点",
+        "format": "text"
+      },
+      {
+        "module_id": "context_shot_exhibit_wall",
+        "required": false,
+        "desc": "展厅/听证会调查墙现场（可选）",
+        "format": "image"
+      }
+    ],
+    "tags_primary": [
+      "theme:evidence",
+      "output:board",
+      "ui:timestamp_overlay"
+    ],
+    "tags_secondary": [
+      "origin:screenshot",
+      "object:map",
+      "theme:institution"
+    ],
+    "default_risk_level": 1,
+    "default_sharpness": 0.78,
+    "safety_defaults": {
+      "default_redaction": [
+        "face",
+        "license_plate",
+        "address_text"
+      ],
+      "default_disclaimer": "non_accusatory_uncertainty_first"
+    },
+    "version": "1.0"
+  },
+  {
+    "deck_id": "handdrawn_data",
+    "deck_ui": "手绘数据板",
+    "suit_id": "dossier",
+    "suit_ui": "卷宗",
+    "description": "Mona Chalabi 式手绘数据：手写图形＋注释＋来源类型＋误差声明。",
+    "modules": [
+      {
+        "module_id": "main_visual_handdrawn",
+        "required": true,
+        "desc": "手绘数据主视觉",
+        "format": "image"
+      },
+      {
+        "module_id": "data_notes",
+        "required": true,
+        "desc": "数据说明（来源/假设/误差）",
+        "format": "text"
+      },
+      {
+        "module_id": "legend",
+        "required": true,
+        "desc": "图例/单位/口径",
+        "format": "text"
+      }
+    ],
+    "tags_primary": [
+      "object:form",
+      "theme:institution",
+      "output:board"
+    ],
+    "tags_secondary": [
+      "ui:browser",
+      "origin:screenshot",
+      "theme:evidence"
+    ],
+    "default_risk_level": 0,
+    "default_sharpness": 0.6,
+    "safety_defaults": {
+      "default_redaction": [
+        "address_text"
+      ],
+      "default_disclaimer": "illustrative_data"
+    },
+    "version": "1.0"
+  },
+  {
+    "deck_id": "index_book_page",
+    "deck_ui": "索引书页",
+    "suit_id": "dossier",
+    "suit_ui": "卷宗",
+    "description": "Ruscha 式：把道路/物件变成目录与书页：标题+编号+极简说明。",
+    "modules": [
+      {
+        "module_id": "book_spread",
+        "required": true,
+        "desc": "书页摊开主视觉",
+        "format": "image"
+      },
+      {
+        "module_id": "index_entries",
+        "required": true,
+        "desc": "条目清单（12-24）",
+        "format": "text"
+      },
+      {
+        "module_id": "editor_note",
+        "required": false,
+        "desc": "编辑注（可选）",
+        "format": "text"
+      }
+    ],
+    "tags_primary": [
+      "structure:repetition",
+      "object:form",
+      "theme:memory"
+    ],
+    "tags_secondary": [
+      "space:street",
+      "object:map",
+      "output:index_card"
+    ],
+    "default_risk_level": 0,
+    "default_sharpness": 0.5,
+    "safety_defaults": {
+      "default_redaction": [
+        "address_text"
+      ],
+      "default_disclaimer": "no_location_pinpoint"
+    },
+    "version": "1.0"
+  },
+  {
+    "deck_id": "index_card",
+    "deck_ui": "索引卡",
+    "suit_id": "dossier",
+    "suit_ui": "卷宗",
+    "description": "以索引卡片方式组织证据/人物/机构：编号、字段、交叉引用。",
+    "modules": [
+      {
+        "module_id": "main_visual_index_card",
+        "required": true,
+        "desc": "索引卡主视觉（字段化）",
+        "format": "image"
+      },
+      {
+        "module_id": "index_fields",
+        "required": true,
+        "desc": "字段清单（可检索）",
+        "format": "text"
+      },
+      {
+        "module_id": "cross_refs",
+        "required": true,
+        "desc": "交叉引用（3条）",
+        "format": "text"
+      }
+    ],
+    "tags_primary": [
+      "object:form",
+      "theme:institution",
+      "output:index_card"
+    ],
+    "tags_secondary": [
+      "origin:scan",
+      "object:archive_box",
+      "theme:memory"
+    ],
+    "default_risk_level": 0,
+    "default_sharpness": 0.55,
+    "safety_defaults": {
+      "default_redaction": [
+        "face",
+        "address_text"
+      ],
+      "default_disclaimer": "indexing_not_doxxing"
+    },
+    "version": "1.0"
+  },
+  {
+    "deck_id": "photofiction_archive",
+    "deck_ui": "伪档案柜",
+    "suit_id": "dossier",
+    "suit_ui": "卷宗",
+    "description": "Fontcuberta 式：虚构档案、分类体系、元数据与伪科学叙事（强调可疑性）。",
+    "modules": [
+      {
+        "module_id": "archive_page",
+        "required": true,
+        "desc": "伪档案页面主视觉（元数据块）",
+        "format": "image"
+      },
+      {
+        "module_id": "file_abstract",
+        "required": true,
+        "desc": "文件摘要（机构口吻）",
+        "format": "text"
+      },
+      {
+        "module_id": "classification_index",
+        "required": true,
+        "desc": "分类索引卡",
+        "format": "text"
+      },
+      {
+        "module_id": "anomaly_notes",
+        "required": true,
+        "desc": "异常与自揭示（2条）",
+        "format": "text"
+      }
+    ],
+    "tags_primary": [
+      "object:archive_box",
+      "theme:institution",
+      "output:dossier"
+    ],
+    "tags_secondary": [
+      "origin:scan",
+      "theme:memory",
+      "output:index_card"
+    ],
+    "default_risk_level": 0,
+    "default_sharpness": 0.72,
+    "safety_defaults": {
+      "default_redaction": [
+        "face",
+        "address_text"
+      ],
+      "default_disclaimer": "fictional_archive"
+    },
+    "version": "1.0"
+  },
+  {
+    "deck_id": "purity_grid",
+    "deck_ui": "边界表",
+    "suit_id": "dossier",
+    "suit_ui": "卷宗",
+    "description": "Mary Douglas 式：纯洁/污染的分类表、边界阈值与禁忌网格。",
+    "modules": [
+      {
+        "module_id": "grid",
+        "required": true,
+        "desc": "分类网格（2x2/3x3）",
+        "format": "text"
+      },
+      {
+        "module_id": "boundary_rules",
+        "required": true,
+        "desc": "边界规则（6条）",
+        "format": "text"
+      }
+    ],
+    "tags_primary": [
+      "object:form",
+      "theme:institution",
+      "output:dossier"
+    ],
+    "tags_secondary": [
+      "theme:evidence"
+    ],
+    "default_risk_level": 0,
+    "default_sharpness": 0.6,
+    "safety_defaults": {
+      "default_redaction": [],
+      "default_disclaimer": "cultural_model"
+    },
+    "version": "1.0"
+  },
+  {
+    "deck_id": "r_d_workshop",
+    "deck_ui": "研发工坊页",
+    "suit_id": "dossier",
+    "suit_ui": "卷宗",
+    "description": "Ferran Adrià 式研发笔记：版本号、试验记录、失败模式、配方表。",
+    "modules": [
+      {
+        "module_id": "lab_page",
+        "required": true,
+        "desc": "研发页主视觉（表格/编号）",
+        "format": "image"
+      },
+      {
+        "module_id": "experiment_log",
+        "required": true,
+        "desc": "实验记录（3-5次迭代）",
+        "format": "text"
+      },
+      {
+        "module_id": "recipe_spec",
+        "required": false,
+        "desc": "配方/参数表（可选）",
+        "format": "text"
+      }
+    ],
+    "tags_primary": [
+      "space:workbench",
+      "object:checklist",
+      "theme:protocol"
+    ],
+    "tags_secondary": [
+      "object:form",
+      "theme:institution"
+    ],
+    "default_risk_level": 0,
+    "default_sharpness": 0.55,
+    "safety_defaults": {
+      "default_redaction": [],
+      "default_disclaimer": "process_not_secret"
+    },
+    "version": "1.0"
+  },
+  {
+    "deck_id": "system_footnote",
+    "deck_ui": "系统脚注页",
+    "suit_id": "dossier",
+    "suit_ui": "卷宗",
+    "description": "James Bridle 式：把看似中性的技术系统写成脚注链：术语/外部性/失明点。",
+    "modules": [
+      {
+        "module_id": "main_visual_footnote_page",
+        "required": true,
+        "desc": "脚注页面主视觉（编号/引用）",
+        "format": "image"
+      },
+      {
+        "module_id": "footnotes",
+        "required": true,
+        "desc": "脚注条目（10-16）",
+        "format": "text"
+      },
+      {
+        "module_id": "terms_glossary",
+        "required": false,
+        "desc": "术语表（可选）",
+        "format": "text"
+      }
+    ],
+    "tags_primary": [
+      "theme:institution",
+      "theme:evidence",
+      "output:dossier"
+    ],
+    "tags_secondary": [
+      "origin:screenshot",
+      "ui:browser"
+    ],
+    "default_risk_level": 0,
+    "default_sharpness": 0.7,
+    "safety_defaults": {
+      "default_redaction": [
+        "address_text"
+      ],
+      "default_disclaimer": "systemic_not_personal"
+    },
+    "version": "1.0"
+  },
+  {
+    "deck_id": "workshop_manual",
+    "deck_ui": "规程手册包",
+    "suit_id": "dossier",
+    "suit_ui": "卷宗",
+    "description": "Tom Sachs 式：制作单、QA清单、knolling工具布局、证书与展示条件。",
+    "modules": [
+      {
+        "module_id": "hero_object",
+        "required": true,
+        "desc": "原型物作品照",
+        "format": "image"
+      },
+      {
+        "module_id": "context_workbench",
+        "required": true,
+        "desc": "工坊现场（knolling排布）",
+        "format": "image"
+      },
+      {
+        "module_id": "build_sheet",
+        "required": true,
+        "desc": "制作单（8步）",
+        "format": "text"
+      },
+      {
+        "module_id": "qa_checklist",
+        "required": true,
+        "desc": "质检清单（签字版）",
+        "format": "text"
+      },
+      {
+        "module_id": "coa_label",
+        "required": false,
+        "desc": "证书+展签（可选）",
+        "format": "text"
+      }
+    ],
+    "tags_primary": [
+      "space:workbench",
+      "object:checklist",
+      "theme:protocol"
+    ],
+    "tags_secondary": [
+      "object:certificate",
+      "theme:institution"
+    ],
+    "default_risk_level": 0,
+    "default_sharpness": 0.6,
+    "safety_defaults": {
+      "default_redaction": [
+        "brand_logo",
+        "face"
+      ],
+      "default_disclaimer": "no_brand_no_harm"
+    },
+    "version": "1.0"
+  },
+  {
+    "deck_id": "caption_trap",
+    "deck_ui": "标题机关",
+    "suit_id": "installation",
+    "suit_ui": "展厅",
+    "description": "以“标题/图像互相否定”制造结构冲突：一句标题改变你对图像的相信方式。",
+    "modules": [
+      {
+        "module_id": "main_visual_caption_object",
+        "required": true,
+        "desc": "主视觉（图像+标题板）",
+        "format": "image"
+      },
+      {
+        "module_id": "caption_set",
+        "required": true,
+        "desc": "标题组（互相拆台）",
+        "format": "text"
+      },
+      {
+        "module_id": "label",
+        "required": false,
+        "desc": "展签（可选）",
+        "format": "text"
+      }
+    ],
+    "tags_primary": [
+      "theme:institution",
+      "output:wall_label"
+    ],
+    "tags_secondary": [
+      "carrier:signage",
+      "ui:watermark"
+    ],
+    "default_risk_level": 0,
+    "default_sharpness": 0.6,
+    "safety_defaults": {
+      "default_redaction": [
+        "face",
+        "address_text"
+      ],
+      "default_disclaimer": "conceptual_caption"
+    },
+    "version": "1.0"
+  },
+  {
+    "deck_id": "clinical_display",
+    "deck_ui": "临床陈列柜",
+    "suit_id": "installation",
+    "suit_ui": "展厅",
+    "description": "把照片内容“医学/实验/白手套”式陈列：标签、样本、说明卡与洁净空间。",
+    "modules": [
+      {
+        "module_id": "main_visual_clinical_case",
+        "required": true,
+        "desc": "临床陈列主页面（玻璃柜/标签/编号）",
+        "format": "image"
+      },
+      {
+        "module_id": "context_shot_lab",
+        "required": true,
+        "desc": "展厅/实验室式现场（白桌/柜/灯）",
+        "format": "image"
+      },
+      {
+        "module_id": "specimen_labels",
+        "required": true,
+        "desc": "标签卡：名称/编号/条件/警示",
+        "format": "text"
+      },
+      {
+        "module_id": "handling_protocol",
+        "required": false,
+        "desc": "处理与观看规程（可选）",
+        "format": "text"
+      }
+    ],
+    "tags_primary": [
+      "object:form",
+      "theme:institution",
+      "output:certificate"
+    ],
+    "tags_secondary": [
+      "space:whitecube",
+      "object:catalogue",
+      "output:wall_label"
+    ],
+    "default_risk_level": 0,
+    "default_sharpness": 0.5,
+    "safety_defaults": {
+      "default_redaction": [
+        "face",
+        "license_plate",
+        "address_text"
+      ],
+      "default_disclaimer": "speculative_display"
+    },
+    "version": "1.0"
+  },
+  {
+    "deck_id": "field_cabinet",
+    "deck_ui": "田野收藏柜",
+    "suit_id": "installation",
+    "suit_ui": "展厅",
+    "description": "把图像当作“田野样本”的分类收藏：抽屉/标本/标签/采集记录。",
+    "modules": [
+      {
+        "module_id": "main_visual_cabinet",
+        "required": true,
+        "desc": "收藏柜/抽屉式主视觉",
+        "format": "image"
+      },
+      {
+        "module_id": "context_shot_storage",
+        "required": true,
+        "desc": "阅读室/库房陈列现场",
+        "format": "image"
+      },
+      {
+        "module_id": "specimen_index",
+        "required": true,
+        "desc": "样本索引卡（编号/类别/来源）",
+        "format": "text"
+      },
+      {
+        "module_id": "collection_note",
+        "required": false,
+        "desc": "采集笔记（可选）",
+        "format": "text"
+      }
+    ],
+    "tags_primary": [
+      "object:archive_box",
+      "theme:institution",
+      "output:index_card"
+    ],
+    "tags_secondary": [
+      "space:whitecube",
+      "theme:memory"
+    ],
+    "default_risk_level": 0,
+    "default_sharpness": 0.45,
+    "safety_defaults": {
+      "default_redaction": [
+        "face",
+        "address_text"
+      ],
+      "default_disclaimer": "fictional_collection"
+    },
+    "version": "1.0"
+  },
+  {
+    "deck_id": "infinity_dot_room",
+    "deck_ui": "镜屋点阵",
+    "suit_id": "installation",
+    "suit_ui": "展厅",
+    "description": "将图像转译为沉浸式点阵/镜面无限装置的“存在场景”与体验说明。",
+    "modules": [
+      {
+        "module_id": "main_visual_dot_room",
+        "required": true,
+        "desc": "点阵/镜面装置主视觉（沉浸场景）",
+        "format": "image"
+      },
+      {
+        "module_id": "context_shot_visitors",
+        "required": true,
+        "desc": "观众体验现场（背影/去识别）",
+        "format": "image"
+      },
+      {
+        "module_id": "installation_rules",
+        "required": true,
+        "desc": "装置规则：镜面/灯光/动线/安全",
+        "format": "text"
+      },
+      {
+        "module_id": "label",
+        "required": false,
+        "desc": "展签（简短）",
+        "format": "text"
+      }
+    ],
+    "tags_primary": [
+      "space:whitecube",
+      "light:night",
+      "structure:repetition"
+    ],
+    "tags_secondary": [
+      "output:wall_label",
+      "theme:memory"
+    ],
+    "default_risk_level": 0,
+    "default_sharpness": 0.45,
+    "safety_defaults": {
+      "default_redaction": [
+        "face"
+      ],
+      "default_disclaimer": "installation_mock"
+    },
+    "version": "1.0"
+  },
+  {
+    "deck_id": "institutional_press_kit",
+    "deck_ui": "机构新闻包",
+    "suit_id": "installation",
+    "suit_ui": "展厅",
+    "description": "把普通物升格为“机构/媒体事件”：新闻照+拍卖图录+证书+安装示意。",
+    "modules": [
+      {
+        "module_id": "press_photo",
+        "required": true,
+        "desc": "新闻照式作品现场",
+        "format": "image"
+      },
+      {
+        "module_id": "context_shot_preview",
+        "required": true,
+        "desc": "预展/展厅围观现场",
+        "format": "image"
+      },
+      {
+        "module_id": "lot_sheet",
+        "required": true,
+        "desc": "拍卖图录条目（字段化）",
+        "format": "text"
+      },
+      {
+        "module_id": "coa_diagram",
+        "required": true,
+        "desc": "证书+安装示意（制度语言）",
+        "format": "text"
+      },
+      {
+        "module_id": "press_bulletins",
+        "required": false,
+        "desc": "媒体快讯标题（可选）",
+        "format": "text"
+      }
+    ],
+    "tags_primary": [
+      "object:certificate",
+      "object:catalogue",
+      "theme:institution"
+    ],
+    "tags_secondary": [
+      "space:whitecube",
+      "carrier:signage",
+      "output:certificate"
+    ],
+    "default_risk_level": 1,
+    "default_sharpness": 0.8,
+    "safety_defaults": {
+      "default_redaction": [
+        "face",
+        "license_plate",
+        "address_text"
+      ],
+      "default_disclaimer": "fictional_press_kit_no_illegal"
+    },
+    "version": "1.0"
+  },
+  {
+    "deck_id": "lightbox_tableau",
+    "deck_ui": "灯箱叙事",
+    "suit_id": "installation",
+    "suit_ui": "展厅",
+    "description": "把照片升级为“可展陈的灯箱成片”＋展签＋重构笔记（像广告灯箱被艺术化占用）。",
+    "modules": [
+      {
+        "module_id": "main_visual_lightbox",
+        "required": true,
+        "desc": "灯箱成片主视觉（发光边框/大尺幅质感）",
+        "format": "image"
+      },
+      {
+        "module_id": "context_shot_exhibition",
+        "required": true,
+        "desc": "展厅灯箱现场（白墙/灯箱发光）",
+        "format": "image"
+      },
+      {
+        "module_id": "reconstruction_notes",
+        "required": true,
+        "desc": "重构文件：调度/协作/机位/道具说明",
+        "format": "text"
+      },
+      {
+        "module_id": "wall_label",
+        "required": true,
+        "desc": "展签/墙文（制度化口吻）",
+        "format": "text"
+      }
+    ],
+    "tags_primary": [
+      "space:whitecube",
+      "light:cinematic",
+      "theme:montage"
+    ],
+    "tags_secondary": [
+      "space:threshold",
+      "output:wall_label",
+      "output:call_sheet"
+    ],
+    "default_risk_level": 0,
+    "default_sharpness": 0.55,
+    "safety_defaults": {
+      "default_redaction": [
+        "face",
+        "license_plate",
+        "address_text"
+      ],
+      "default_disclaimer": "fictional_staging"
+    },
+    "version": "1.0"
+  },
+  {
+    "deck_id": "mnemosyne_panel",
+    "deck_ui": "记忆图谱板",
+    "suit_id": "installation",
+    "suit_ui": "展厅",
+    "description": "以 Warburg 式图像并置面板组织图像：图像块＋关联线＋主题轴。",
+    "modules": [
+      {
+        "module_id": "main_visual_panel",
+        "required": true,
+        "desc": "图谱板主视觉（多图并置/连线）",
+        "format": "image"
+      },
+      {
+        "module_id": "context_shot_panel_room",
+        "required": true,
+        "desc": "展厅墙面图谱板现场",
+        "format": "image"
+      },
+      {
+        "module_id": "motif_index",
+        "required": true,
+        "desc": "母题索引（motif list）",
+        "format": "text"
+      },
+      {
+        "module_id": "cross_links",
+        "required": true,
+        "desc": "交叉关联说明（条目式）",
+        "format": "text"
+      }
+    ],
+    "tags_primary": [
+      "structure:grid",
+      "structure:repetition",
+      "theme:memory"
+    ],
+    "tags_secondary": [
+      "output:index_card",
+      "space:whitecube"
+    ],
+    "default_risk_level": 0,
+    "default_sharpness": 0.55,
+    "safety_defaults": {
+      "default_redaction": [
+        "face"
+      ],
+      "default_disclaimer": "research_panel"
+    },
+    "version": "1.0"
+  },
+  {
+    "deck_id": "public_signal",
+    "deck_ui": "公共标语机",
+    "suit_id": "installation",
+    "suit_ui": "展厅",
+    "description": "把文字投放到公共介质：LED/投影/海报，并输出 Truisms 阵列与播放脚本。",
+    "modules": [
+      {
+        "module_id": "main_visual_public_medium",
+        "required": true,
+        "desc": "公共介质主视觉（LED/投影/海报）",
+        "format": "image"
+      },
+      {
+        "module_id": "context_shot_public",
+        "required": true,
+        "desc": "作品在公共空间被观看的现场照",
+        "format": "image"
+      },
+      {
+        "module_id": "truisms_array",
+        "required": true,
+        "desc": "原创短句阵列（12/24）",
+        "format": "text"
+      },
+      {
+        "module_id": "cue_sheet",
+        "required": true,
+        "desc": "播放/张贴脚本（速度/停顿/循环）",
+        "format": "text"
+      },
+      {
+        "module_id": "wall_label",
+        "required": false,
+        "desc": "展签（可选）",
+        "format": "text"
+      }
+    ],
+    "tags_primary": [
+      "carrier:led",
+      "carrier:projection",
+      "carrier:poster"
+    ],
+    "tags_secondary": [
+      "carrier:signage",
+      "theme:institution",
+      "output:cue_sheet"
+    ],
+    "default_risk_level": 1,
+    "default_sharpness": 0.75,
+    "safety_defaults": {
+      "default_redaction": [
+        "face",
+        "address_text"
+      ],
+      "default_disclaimer": "original_text_no_hate_no_targeting"
+    },
+    "version": "1.0"
+  },
+  {
+    "deck_id": "single_frame_movie_unit",
+    "deck_ui": "单帧剧组包",
+    "suit_id": "installation",
+    "suit_ui": "展厅",
+    "description": "把照片当作外景勘景：输出单帧电影剧照＋幕后片场＋制作文件（通告/布光/走位）。",
+    "modules": [
+      {
+        "module_id": "main_visual_tableau_still",
+        "required": true,
+        "desc": "电影式剧照成片",
+        "format": "image"
+      },
+      {
+        "module_id": "context_shot_behind_scene",
+        "required": true,
+        "desc": "幕后片场照（灯架/吊臂/团队背影）",
+        "format": "image"
+      },
+      {
+        "module_id": "call_sheet",
+        "required": true,
+        "desc": "通告单",
+        "format": "text"
+      },
+      {
+        "module_id": "lighting_diagram",
+        "required": true,
+        "desc": "布光图说明（文字版）",
+        "format": "text"
+      },
+      {
+        "module_id": "blocking_set_dressing",
+        "required": false,
+        "desc": "走位&道具清单",
+        "format": "text"
+      }
+    ],
+    "tags_primary": [
+      "light:cinematic",
+      "space:threshold",
+      "light:night"
+    ],
+    "tags_secondary": [
+      "output:call_sheet",
+      "theme:montage"
+    ],
+    "default_risk_level": 1,
+    "default_sharpness": 0.65,
+    "safety_defaults": {
+      "default_redaction": [
+        "face"
+      ],
+      "default_disclaimer": "fictional_staging_no_real_personal_story"
+    },
+    "version": "1.0"
+  },
+  {
+    "deck_id": "wrap_project",
+    "deck_ui": "工程装置包",
+    "suit_id": "installation",
+    "suit_ui": "展厅",
+    "description": "以“包裹/覆盖/临时工程”的方式改写现场：生成方案图、预算/审批语言与现场照。",
+    "modules": [
+      {
+        "module_id": "main_visual_wrapped_site",
+        "required": true,
+        "desc": "包裹后的现场主视觉（施工/覆盖）",
+        "format": "image"
+      },
+      {
+        "module_id": "context_shot_site",
+        "required": true,
+        "desc": "施工现场/观众观看（去识别）",
+        "format": "image"
+      },
+      {
+        "module_id": "engineering_sheet",
+        "required": true,
+        "desc": "工程单：材料/尺寸/节点/工期",
+        "format": "text"
+      },
+      {
+        "module_id": "permit_statement",
+        "required": false,
+        "desc": "许可/公共说明（克制）",
+        "format": "text"
+      }
+    ],
+    "tags_primary": [
+      "space:street",
+      "theme:institution",
+      "output:certificate"
+    ],
+    "tags_secondary": [
+      "object:form",
+      "output:wall_label"
+    ],
+    "default_risk_level": 0,
+    "default_sharpness": 0.5,
+    "safety_defaults": {
+      "default_redaction": [
+        "license_plate",
+        "address_text",
+        "face"
+      ],
+      "default_disclaimer": "fictional_public_art"
+    },
+    "version": "1.0"
+  },
+  {
+    "deck_id": "flash_zone",
+    "deck_ui": "闪光隔离区",
+    "suit_id": "mechanism",
+    "suit_ui": "拆机",
+    "description": "以闪光为机制：把人物从环境中“切出来”，生成隔离区图像与观看条件清单。",
+    "modules": [
+      {
+        "module_id": "main_visual_flash_zone",
+        "required": true,
+        "desc": "闪光隔离主视觉（人物/物体被切割）",
+        "format": "image"
+      },
+      {
+        "module_id": "context_shot_street",
+        "required": false,
+        "desc": "现场对照（可选）",
+        "format": "image"
+      },
+      {
+        "module_id": "conditions_of_flash",
+        "required": true,
+        "desc": "闪光条件清单（6条）",
+        "format": "text"
+      },
+      {
+        "module_id": "annotation",
+        "required": true,
+        "desc": "注释条目（为何被看见/被切割）",
+        "format": "text"
+      }
+    ],
+    "tags_primary": [
+      "light:flash",
+      "space:street",
+      "theme:visibility"
+    ],
+    "tags_secondary": [
+      "output:board",
+      "risk:face_clear"
+    ],
+    "default_risk_level": 1,
+    "default_sharpness": 0.65,
+    "safety_defaults": {
+      "default_redaction": [
+        "face"
+      ],
+      "default_disclaimer": "no_targeting"
+    },
+    "version": "1.0"
+  },
+  {
+    "deck_id": "invisible_systems",
+    "deck_ui": "不可见系统板",
+    "suit_id": "mechanism",
+    "suit_ui": "拆机",
+    "description": "为“不可见系统”生成显影板：框选、阈值、热点、看不见的基础设施。",
+    "modules": [
+      {
+        "module_id": "main_visual_invisible_overlay",
+        "required": true,
+        "desc": "显影主视觉（热区/框选/阈值线）",
+        "format": "image"
+      },
+      {
+        "module_id": "system_tags",
+        "required": true,
+        "desc": "系统标签（训练/监管/引导/销售…）",
+        "format": "text"
+      },
+      {
+        "module_id": "uncertainty_log",
+        "required": true,
+        "desc": "不确定性日志与反证点",
+        "format": "text"
+      }
+    ],
+    "tags_primary": [
+      "theme:institution",
+      "theme:visibility",
+      "output:board"
+    ],
+    "tags_secondary": [
+      "origin:screenshot",
+      "ui:video_player"
+    ],
+    "default_risk_level": 1,
+    "default_sharpness": 0.75,
+    "safety_defaults": {
+      "default_redaction": [
+        "face",
+        "address_text"
+      ],
+      "default_disclaimer": "mechanism_not_accusation"
+    },
+    "version": "1.0"
+  },
+  {
+    "deck_id": "panorama_zoom",
+    "deck_ui": "全景放大窗",
+    "suit_id": "mechanism",
+    "suit_ui": "拆机",
+    "description": "高分辨率全景＋放大窗：把系统规模与细节证据并置。",
+    "modules": [
+      {
+        "module_id": "main_visual_panorama",
+        "required": true,
+        "desc": "全景主视觉+放大窗",
+        "format": "image"
+      },
+      {
+        "module_id": "zoom_annotations",
+        "required": true,
+        "desc": "放大窗注释（可验证）",
+        "format": "text"
+      },
+      {
+        "module_id": "scale_note",
+        "required": true,
+        "desc": "尺度/观看位置说明",
+        "format": "text"
+      }
+    ],
+    "tags_primary": [
+      "structure:panorama",
+      "structure:repetition",
+      "theme:institution"
+    ],
+    "tags_secondary": [
+      "output:board",
+      "origin:photo"
+    ],
+    "default_risk_level": 0,
+    "default_sharpness": 0.6,
+    "safety_defaults": {
+      "default_redaction": [
+        "face",
+        "license_plate",
+        "address_text"
+      ],
+      "default_disclaimer": "no_location_pinpoint"
+    },
+    "version": "1.0"
+  },
+  {
+    "deck_id": "split_screen",
+    "deck_ui": "双屏对照台",
+    "suit_id": "mechanism",
+    "suit_ui": "拆机",
+    "description": "同一图像两种视线：HUMAN VIEW vs OPERATION VIEW；条目注释+观看条件+结论句。",
+    "modules": [
+      {
+        "module_id": "main_visual_split_screen",
+        "required": true,
+        "desc": "双屏/三屏主视觉",
+        "format": "image"
+      },
+      {
+        "module_id": "annotations",
+        "required": true,
+        "desc": "左右屏注释（条目化）",
+        "format": "text"
+      },
+      {
+        "module_id": "viewing_conditions",
+        "required": true,
+        "desc": "观看条件清单（6条）",
+        "format": "text"
+      },
+      {
+        "module_id": "mechanism_sentence",
+        "required": true,
+        "desc": "机制结论句（≤22字）",
+        "format": "text"
+      }
+    ],
+    "tags_primary": [
+      "origin:screenshot",
+      "ui:video_player",
+      "theme:evidence"
+    ],
+    "tags_secondary": [
+      "quality:compressed",
+      "output:board",
+      "theme:institution"
+    ],
+    "default_risk_level": 1,
+    "default_sharpness": 0.72,
+    "safety_defaults": {
+      "default_redaction": [
+        "face",
+        "license_plate",
+        "address_text"
+      ],
+      "default_disclaimer": "analysis_not_claim"
+    },
+    "version": "1.0"
+  },
+  {
+    "deck_id": "are_bure_boke",
+    "deck_ui": "粗粒散焦",
+    "suit_id": "photo_grammar",
+    "suit_ui": "摄影谱",
+    "description": "森山大道式：粗粒、散焦、黑白街头能量；输出“断句+标题”。",
+    "modules": [
+      {
+        "module_id": "main_visual_grain",
+        "required": true,
+        "desc": "粗粒散焦主视觉",
+        "format": "image"
+      },
+      {
+        "module_id": "line_break_text",
+        "required": true,
+        "desc": "断句文本（短段）",
+        "format": "text"
+      }
+    ],
+    "tags_primary": [
+      "space:street",
+      "quality:lowres",
+      "theme:memory"
+    ],
+    "tags_secondary": [
+      "light:night",
+      "structure:sequence_potential"
+    ],
+    "default_risk_level": 0,
+    "default_sharpness": 0.6,
+    "safety_defaults": {
+      "default_redaction": [
+        "face"
+      ],
+      "default_disclaimer": "street_poetics"
+    },
+    "version": "1.0"
+  },
+  {
+    "deck_id": "saturated_flash",
+    "deck_ui": "饱和闪光",
+    "suit_id": "photo_grammar",
+    "suit_ui": "摄影谱",
+    "description": "Parr 式：直闪、饱和、消费社会学；输出“观察清单+笑点钉子”。",
+    "modules": [
+      {
+        "module_id": "main_visual_flash",
+        "required": true,
+        "desc": "饱和闪光主视觉",
+        "format": "image"
+      },
+      {
+        "module_id": "observation_list",
+        "required": true,
+        "desc": "观察清单（8-12条）",
+        "format": "text"
+      },
+      {
+        "module_id": "tagline",
+        "required": false,
+        "desc": "钉子句（可选）",
+        "format": "text"
+      }
+    ],
+    "tags_primary": [
+      "light:flash",
+      "theme:satire",
+      "space:street"
+    ],
+    "tags_secondary": [
+      "structure:sequence_potential"
+    ],
+    "default_risk_level": 0,
+    "default_sharpness": 0.65,
+    "safety_defaults": {
+      "default_redaction": [
+        "face"
+      ],
+      "default_disclaimer": "no_mocking_specific_person"
+    },
+    "version": "1.0"
+  },
+  {
+    "deck_id": "sequence_handwriting",
+    "deck_ui": "手写序列",
+    "suit_id": "photo_grammar",
+    "suit_ui": "摄影谱",
+    "description": "Duane Michals 式：序列照片＋手写旁注（私密但克制）。",
+    "modules": [
+      {
+        "module_id": "sequence_visual",
+        "required": true,
+        "desc": "序列主视觉（3-6帧）",
+        "format": "image"
+      },
+      {
+        "module_id": "handwritten_text",
+        "required": true,
+        "desc": "手写旁注（短）",
+        "format": "text"
+      }
+    ],
+    "tags_primary": [
+      "structure:sequence_potential",
+      "theme:memory",
+      "output:dossier"
+    ],
+    "tags_secondary": [
+      "origin:photo",
+      "light:night"
+    ],
+    "default_risk_level": 0,
+    "default_sharpness": 0.5,
+    "safety_defaults": {
+      "default_redaction": [
+        "face"
+      ],
+      "default_disclaimer": "fictional_sequence"
+    },
+    "version": "1.0"
+  },
+  {
+    "deck_id": "typology_grid",
+    "deck_ui": "类型学网格",
+    "suit_id": "photo_grammar",
+    "suit_ui": "摄影谱",
+    "description": "Becher 式：同类对象网格对齐、统一机位与光线、类型学标签。",
+    "modules": [
+      {
+        "module_id": "grid_visual",
+        "required": true,
+        "desc": "网格主视觉（9/12/16格）",
+        "format": "image"
+      },
+      {
+        "module_id": "typology_rules",
+        "required": true,
+        "desc": "拍摄/裁切一致性规则",
+        "format": "text"
+      },
+      {
+        "module_id": "label_set",
+        "required": false,
+        "desc": "类型标签（可选）",
+        "format": "text"
+      }
+    ],
+    "tags_primary": [
+      "structure:grid",
+      "structure:repetition",
+      "origin:photo"
+    ],
+    "tags_secondary": [
+      "theme:institution",
+      "output:index_card"
+    ],
+    "default_risk_level": 0,
+    "default_sharpness": 0.45,
+    "safety_defaults": {
+      "default_redaction": [
+        "license_plate",
+        "address_text"
+      ],
+      "default_disclaimer": "typology_not_doxx"
+    },
+    "version": "1.0"
+  },
+  {
+    "deck_id": "road_ledger",
+    "deck_ui": "路书账本",
+    "suit_id": "roadbook",
+    "suit_ui": "路书",
+    "description": "Alec Soth 式：大画幅停靠点成片＋田野笔记＋书页摊开与章节。",
+    "modules": [
+      {
+        "module_id": "main_visual_large_format",
+        "required": true,
+        "desc": "大画幅成片主视觉",
+        "format": "image"
+      },
+      {
+        "module_id": "context_book_spread",
+        "required": true,
+        "desc": "书页/桌面编辑现场",
+        "format": "image"
+      },
+      {
+        "module_id": "field_notes",
+        "required": true,
+        "desc": "田野笔记（三段）",
+        "format": "text"
+      },
+      {
+        "module_id": "chapter_markers",
+        "required": false,
+        "desc": "章节标记（可选）",
+        "format": "text"
+      }
+    ],
+    "tags_primary": [
+      "theme:memory",
+      "space:street",
+      "structure:sequence_potential"
+    ],
+    "tags_secondary": [
+      "object:map",
+      "output:dossier"
+    ],
+    "default_risk_level": 0,
+    "default_sharpness": 0.55,
+    "safety_defaults": {
+      "default_redaction": [
+        "face",
+        "address_text"
+      ],
+      "default_disclaimer": "no_location_pinpoint"
+    },
+    "version": "1.0"
+  },
+  {
+    "deck_id": "archive_montage",
+    "deck_ui": "档案蒙太奇",
+    "suit_id": "screening",
+    "suit_ui": "放映",
+    "description": "以档案拼贴和冷开场组织叙事：旁白断言＋资料镜头＋缺口声明。",
+    "modules": [
+      {
+        "module_id": "cold_open",
+        "required": true,
+        "desc": "冷开场断言（1句）+ 3条证据线索",
+        "format": "text"
+      },
+      {
+        "module_id": "montage_script",
+        "required": true,
+        "desc": "档案蒙太奇脚本（段落化）",
+        "format": "text"
+      },
+      {
+        "module_id": "context_shot_edit_room",
+        "required": false,
+        "desc": "剪辑台/放映现场（可选）",
+        "format": "image"
+      }
+    ],
+    "tags_primary": [
+      "theme:montage",
+      "origin:screenshot",
+      "structure:sequence_potential"
+    ],
+    "tags_secondary": [
+      "ui:video_player",
+      "quality:compressed"
+    ],
+    "default_risk_level": 1,
+    "default_sharpness": 0.7,
+    "safety_defaults": {
+      "default_redaction": [
+        "face",
+        "address_text"
+      ],
+      "default_disclaimer": "essay_like_not_claim"
+    },
+    "version": "1.0"
+  },
+  {
+    "deck_id": "audio_walk",
+    "deck_ui": "耳机行走谱",
+    "suit_id": "screening",
+    "suit_ui": "放映",
+    "description": "Cardiff 式音频行走：路线谱 + 8听点脚本 + 双耳叠音表 + 对照照片卡。",
+    "modules": [
+      {
+        "module_id": "walk_score",
+        "required": true,
+        "desc": "路线谱（进入/偏离/回收+听点编号）",
+        "format": "image"
+      },
+      {
+        "module_id": "context_shot_walk",
+        "required": true,
+        "desc": "耳机行走现场照（背影+对照照片）",
+        "format": "image"
+      },
+      {
+        "module_id": "cue_scripts_8",
+        "required": true,
+        "desc": "8个听点脚本",
+        "format": "text"
+      },
+      {
+        "module_id": "binaural_layers",
+        "required": true,
+        "desc": "双耳叠音表",
+        "format": "text"
+      },
+      {
+        "module_id": "photo_match_triptych",
+        "required": false,
+        "desc": "三张对照照片卡（可选）",
+        "format": "text"
+      }
+    ],
+    "tags_primary": [
+      "object:map",
+      "theme:walk",
+      "structure:sequence_potential"
+    ],
+    "tags_secondary": [
+      "space:street",
+      "space:interior",
+      "theme:memory"
+    ],
+    "default_risk_level": 1,
+    "default_sharpness": 0.55,
+    "safety_defaults": {
+      "default_redaction": [
+        "face",
+        "address_text"
+      ],
+      "default_disclaimer": "safe_walk_no_tracking"
+    },
+    "version": "1.0"
+  },
+  {
+    "deck_id": "essay_film",
+    "deck_ui": "随笔电影台",
+    "suit_id": "screening",
+    "suit_ui": "放映",
+    "description": "F/FAKE 式随笔：反转、旁白、虚构/真实摇摆，强调“我们如何相信图像”。",
+    "modules": [
+      {
+        "module_id": "thesis_sentence",
+        "required": true,
+        "desc": "开场论点句",
+        "format": "text"
+      },
+      {
+        "module_id": "scene_cards",
+        "required": true,
+        "desc": "场景卡（5张）",
+        "format": "text"
+      },
+      {
+        "module_id": "ending_twist",
+        "required": true,
+        "desc": "结尾钉子（≤22字）",
+        "format": "text"
+      }
+    ],
+    "tags_primary": [
+      "theme:montage",
+      "theme:institution",
+      "output:cue_sheet"
+    ],
+    "tags_secondary": [
+      "origin:screenshot",
+      "quality:compressed"
+    ],
+    "default_risk_level": 0,
+    "default_sharpness": 0.65,
+    "safety_defaults": {
+      "default_redaction": [
+        "face"
+      ],
+      "default_disclaimer": "fictional_essay"
+    },
+    "version": "1.0"
+  },
+  {
+    "deck_id": "slideshow",
+    "deck_ui": "幻灯放映",
+    "suit_id": "screening",
+    "suit_ui": "放映",
+    "description": "把照片组织成幻灯：配旁白、转场、序列与放映现场（讲述与观看条件）。",
+    "modules": [
+      {
+        "module_id": "slide_deck_script",
+        "required": true,
+        "desc": "幻灯脚本（分镜/旁白/转场）",
+        "format": "text"
+      },
+      {
+        "module_id": "context_shot_screening",
+        "required": true,
+        "desc": "放映现场（暗室/投影/观众背影）",
+        "format": "image"
+      },
+      {
+        "module_id": "sequence_nodes",
+        "required": false,
+        "desc": "序列节点（可选）",
+        "format": "text"
+      }
+    ],
+    "tags_primary": [
+      "structure:sequence_potential",
+      "theme:memory",
+      "output:cue_sheet"
+    ],
+    "tags_secondary": [
+      "space:blackbox",
+      "origin:photo"
+    ],
+    "default_risk_level": 1,
+    "default_sharpness": 0.6,
+    "safety_defaults": {
+      "default_redaction": [
+        "face"
+      ],
+      "default_disclaimer": "fictional_screening"
+    },
+    "version": "1.0"
+  },
+  {
+    "deck_id": "still_storyboard",
+    "deck_ui": "静帧分镜页",
+    "suit_id": "screening",
+    "suit_ui": "放映",
+    "description": "以电影式静帧与分镜文本构成：雾、时间感、黑色电影式指令与对白碎片。",
+    "modules": [
+      {
+        "module_id": "main_visual_still",
+        "required": true,
+        "desc": "静帧主视觉（片段感）",
+        "format": "image"
+      },
+      {
+        "module_id": "storyboard_notes",
+        "required": true,
+        "desc": "分镜文本（镜头号+动作+声音）",
+        "format": "text"
+      },
+      {
+        "module_id": "context_shot_blackbox",
+        "required": false,
+        "desc": "放映/展厅现场（可选）",
+        "format": "image"
+      }
+    ],
+    "tags_primary": [
+      "light:night",
+      "theme:montage",
+      "space:threshold"
+    ],
+    "tags_secondary": [
+      "output:cue_sheet",
+      "structure:sequence_potential"
+    ],
+    "default_risk_level": 0,
+    "default_sharpness": 0.6,
+    "safety_defaults": {
+      "default_redaction": [
+        "face"
+      ],
+      "default_disclaimer": "fictional_film_still"
+    },
+    "version": "1.0"
+  },
+  {
+    "deck_id": "date_board",
+    "deck_ui": "日期证明板",
+    "suit_id": "serial",
+    "suit_ui": "连载",
+    "description": "On Kawara 式：日期板+档案盒剪页+当日派生单据（I GOT UP / I WENT / ALIVE）。",
+    "modules": [
+      {
+        "module_id": "date_painting_visual",
+        "required": true,
+        "desc": "日期板主视觉",
+        "format": "image"
+      },
+      {
+        "module_id": "archive_box_liner",
+        "required": true,
+        "desc": "盒内剪页与贴附说明",
+        "format": "text"
+      },
+      {
+        "module_id": "daily_slip",
+        "required": true,
+        "desc": "当日派生单据（明信片/地图/电报）",
+        "format": "text"
+      },
+      {
+        "module_id": "why_rules",
+        "required": true,
+        "desc": "纪律声明（≤2）",
+        "format": "text"
+      }
+    ],
+    "tags_primary": [
+      "structure:sequence_potential",
+      "theme:protocol",
+      "output:receipt"
+    ],
+    "tags_secondary": [
+      "object:map",
+      "origin:photo"
+    ],
+    "default_risk_level": 0,
+    "default_sharpness": 0.35,
+    "safety_defaults": {
+      "default_redaction": [
+        "face",
+        "address_text"
+      ],
+      "default_disclaimer": "no_real_address"
+    },
+    "version": "1.0"
+  },
+  {
+    "deck_id": "infinite_count",
+    "deck_ui": "无尽计数",
+    "suit_id": "serial",
+    "suit_ui": "连载",
+    "description": "Opalka 式：计数继续、版本号、时间沉积与不可完成性声明。",
+    "modules": [
+      {
+        "module_id": "count_panel",
+        "required": true,
+        "desc": "计数面板（文本/图像）",
+        "format": "text"
+      },
+      {
+        "module_id": "progress_log",
+        "required": true,
+        "desc": "进度日志（迭代）",
+        "format": "text"
+      }
+    ],
+    "tags_primary": [
+      "structure:repetition",
+      "theme:protocol",
+      "output:dossier"
+    ],
+    "tags_secondary": [
+      "structure:sequence_potential"
+    ],
+    "default_risk_level": 0,
+    "default_sharpness": 0.4,
+    "safety_defaults": {
+      "default_redaction": [],
+      "default_disclaimer": "conceptual_serial"
+    },
+    "version": "1.0"
+  },
+  {
+    "deck_id": "one_year_protocol",
+    "deck_ui": "年度协议",
+    "suit_id": "serial",
+    "suit_ui": "连载",
+    "description": "Hsieh 式：一年挑战协议、打卡表、违约/缺口说明。",
+    "modules": [
+      {
+        "module_id": "protocol_statement",
+        "required": true,
+        "desc": "协议正文（规则+边界）",
+        "format": "text"
+      },
+      {
+        "module_id": "log_template",
+        "required": true,
+        "desc": "日志/打卡模板",
+        "format": "text"
+      },
+      {
+        "module_id": "failure_clause",
+        "required": true,
+        "desc": "失败/缺口条款",
+        "format": "text"
+      }
+    ],
+    "tags_primary": [
+      "structure:sequence_potential",
+      "theme:protocol",
+      "output:checklist"
+    ],
+    "tags_secondary": [
+      "object:form"
+    ],
+    "default_risk_level": 0,
+    "default_sharpness": 0.45,
+    "safety_defaults": {
+      "default_redaction": [],
+      "default_disclaimer": "safe_protocol"
+    },
+    "version": "1.0"
+  },
+  {
+    "deck_id": "gonzo_bulletin",
+    "deck_ui": "贡佐快报",
+    "suit_id": "skin",
+    "suit_ui": "皮肤",
+    "description": "Hunter S. Thompson 式：快讯标题＋主观但结构化的现场笔记＋免责声明。",
+    "modules": [
+      {
+        "module_id": "headline",
+        "required": true,
+        "desc": "快报标题（1条）+副标题",
+        "format": "text"
+      },
+      {
+        "module_id": "bulletin_body",
+        "required": true,
+        "desc": "正文（断句、强主观）",
+        "format": "text"
+      },
+      {
+        "module_id": "fact_vs_fever",
+        "required": true,
+        "desc": "事实/发热双栏",
+        "format": "text"
+      }
+    ],
+    "tags_primary": [
+      "theme:satire",
+      "output:dossier"
+    ],
+    "tags_secondary": [
+      "origin:photo",
+      "space:street"
+    ],
+    "default_risk_level": 1,
+    "default_sharpness": 0.8,
+    "safety_defaults": {
+      "default_redaction": [
+        "face",
+        "address_text"
+      ],
+      "default_disclaimer": "fictional_report_no_targeting"
+    },
+    "version": "1.0"
+  },
+  {
+    "deck_id": "gonzo_dispatch",
+    "deck_ui": "贡佐外派稿",
+    "suit_id": "skin",
+    "suit_ui": "皮肤",
+    "description": "贡佐外派：更长的外派稿、旁白怒气更高，但仍保持“作品化模拟件”。",
+    "modules": [
+      {
+        "module_id": "dispatch_head",
+        "required": true,
+        "desc": "外派稿抬头（地点模糊/日期）",
+        "format": "text"
+      },
+      {
+        "module_id": "dispatch_body",
+        "required": true,
+        "desc": "正文（段落化）",
+        "format": "text"
+      },
+      {
+        "module_id": "editor_warning",
+        "required": true,
+        "desc": "编辑部警示（边界与去识别）",
+        "format": "text"
+      }
+    ],
+    "tags_primary": [
+      "theme:satire",
+      "theme:institution",
+      "output:dossier"
+    ],
+    "tags_secondary": [
+      "risk:sensitive_scene"
+    ],
+    "default_risk_level": 2,
+    "default_sharpness": 0.88,
+    "safety_defaults": {
+      "default_redaction": [
+        "face",
+        "address_text"
+      ],
+      "default_disclaimer": "danger_slot_only"
+    },
+    "version": "1.0"
+  },
+  {
+    "deck_id": "no_text_shock_spread",
+    "deck_ui": "无文封面跨页",
+    "suit_id": "skin",
+    "suit_ui": "皮肤",
+    "description": "TOILETPAPER 式：无文章无广告，只有强烈图像与排版骨架（冲击但不解释）。",
+    "modules": [
+      {
+        "module_id": "cover_spread",
+        "required": true,
+        "desc": "封面/跨页主视觉（无正文）",
+        "format": "image"
+      },
+      {
+        "module_id": "prop_rules",
+        "required": true,
+        "desc": "图像母题规则（3-5条）",
+        "format": "text"
+      }
+    ],
+    "tags_primary": [
+      "theme:montage",
+      "output:board"
+    ],
+    "tags_secondary": [
+      "structure:repetition",
+      "light:flash"
+    ],
+    "default_risk_level": 1,
+    "default_sharpness": 0.8,
+    "safety_defaults": {
+      "default_redaction": [
+        "face",
+        "address_text"
+      ],
+      "default_disclaimer": "no_hate_no_self_harm"
+    },
+    "version": "1.0"
+  },
+  {
+    "deck_id": "platform_skin",
+    "deck_ui": "平台皮肤页",
+    "suit_id": "skin",
+    "suit_ui": "皮肤",
+    "description": "Steyerl 式 poor image：压缩、转发、再上传痕迹＋来源链＋压缩收据＋教学片小节。",
+    "modules": [
+      {
+        "module_id": "main_visual_poor_image",
+        "required": true,
+        "desc": "poor image拼贴主视觉（多层再上传痕迹）",
+        "format": "image"
+      },
+      {
+        "module_id": "source_chain",
+        "required": true,
+        "desc": "来源链A→B→C+损失/增益清单",
+        "format": "text"
+      },
+      {
+        "module_id": "platform_verbs_essay",
+        "required": true,
+        "desc": "平台动词小论文（160-220字）",
+        "format": "text"
+      },
+      {
+        "module_id": "compression_receipt",
+        "required": true,
+        "desc": "压缩收据（字段化）",
+        "format": "text"
+      },
+      {
+        "module_id": "context_shot_installation",
+        "required": false,
+        "desc": "装置化放映现场（可选）",
+        "format": "image"
+      }
+    ],
+    "tags_primary": [
+      "origin:screenshot",
+      "quality:compressed",
+      "ui:social_feed"
+    ],
+    "tags_secondary": [
+      "ui:watermark",
+      "ui:timestamp_overlay",
+      "theme:circulation",
+      "theme:visibility",
+      "output:receipt"
+    ],
+    "default_risk_level": 1,
+    "default_sharpness": 0.78,
+    "safety_defaults": {
+      "default_redaction": [
+        "face",
+        "address_text"
+      ],
+      "default_disclaimer": "analysis_of_platform_not_targeting"
+    },
+    "version": "1.0"
+  },
+  {
+    "deck_id": "satire_front_page",
+    "deck_ui": "讽刺头版",
+    "suit_id": "skin",
+    "suit_ui": "皮肤",
+    "description": "The Onion 式：头版结构+讽刺标题+假新闻格式（明确虚构）。",
+    "modules": [
+      {
+        "module_id": "front_page_visual",
+        "required": true,
+        "desc": "头版主视觉",
+        "format": "image"
+      },
+      {
+        "module_id": "headlines",
+        "required": true,
+        "desc": "标题组（5-7条）",
+        "format": "text"
+      },
+      {
+        "module_id": "legal_disclaimer",
+        "required": true,
+        "desc": "虚构免责声明",
+        "format": "text"
+      }
+    ],
+    "tags_primary": [
+      "theme:satire",
+      "carrier:signage",
+      "output:wall_label"
+    ],
+    "tags_secondary": [
+      "origin:screenshot",
+      "ui:browser"
+    ],
+    "default_risk_level": 1,
+    "default_sharpness": 0.8,
+    "safety_defaults": {
+      "default_redaction": [
+        "address_text"
+      ],
+      "default_disclaimer": "explicit_satire"
+    },
+    "version": "1.0"
+  },
+  {
+    "deck_id": "scripted_feed",
+    "deck_ui": "演出时间线",
+    "suit_id": "skin",
+    "suit_ui": "皮肤",
+    "description": "Ulman 式：mock feed（7-12帖）+文案账本+评论合唱+三幕+揭示卡。",
+    "modules": [
+      {
+        "module_id": "mock_feed_visual",
+        "required": true,
+        "desc": "时间线作品页主视觉（带FICTIONAL PERFORMANCE水印）",
+        "format": "image"
+      },
+      {
+        "module_id": "timeline_script",
+        "required": true,
+        "desc": "9帖脚本（三幕）",
+        "format": "text"
+      },
+      {
+        "module_id": "caption_ledger",
+        "required": true,
+        "desc": "文案账本（规则+词汇池）",
+        "format": "text"
+      },
+      {
+        "module_id": "comment_chorus",
+        "required": false,
+        "desc": "评论合唱（可选）",
+        "format": "text"
+      },
+      {
+        "module_id": "reveal_card",
+        "required": false,
+        "desc": "揭示卡（可选）",
+        "format": "text"
+      }
+    ],
+    "tags_primary": [
+      "ui:social_feed",
+      "theme:performance",
+      "structure:sequence_potential"
+    ],
+    "tags_secondary": [
+      "origin:photo",
+      "risk:face_clear",
+      "output:timeline"
+    ],
+    "default_risk_level": 2,
+    "default_sharpness": 0.85,
+    "safety_defaults": {
+      "default_redaction": [
+        "face",
+        "address_text"
+      ],
+      "default_disclaimer": "fictional_mock_no_real_account_ops"
+    },
+    "version": "1.0"
+  },
+  {
+    "deck_id": "still_role",
+    "deck_ui": "剧照角色页",
+    "suit_id": "skin",
+    "suit_ui": "皮肤",
+    "description": "Cindy Sherman 式：角色扮演剧照页＋角色卡字段＋幕后提示。",
+    "modules": [
+      {
+        "module_id": "main_visual_still",
+        "required": true,
+        "desc": "剧照主视觉（角色化）",
+        "format": "image"
+      },
+      {
+        "module_id": "role_card",
+        "required": true,
+        "desc": "角色卡字段（身份/道具/姿态）",
+        "format": "text"
+      },
+      {
+        "module_id": "behind_hint",
+        "required": false,
+        "desc": "幕后提示（可选）",
+        "format": "text"
+      }
+    ],
+    "tags_primary": [
+      "theme:performance",
+      "output:dossier"
+    ],
+    "tags_secondary": [
+      "ui:timestamp_overlay",
+      "structure:sequence_potential"
+    ],
+    "default_risk_level": 1,
+    "default_sharpness": 0.6,
+    "safety_defaults": {
+      "default_redaction": [
+        "face"
+      ],
+      "default_disclaimer": "fictional_roleplay"
+    },
+    "version": "1.0"
+  },
+  {
+    "deck_id": "zine_spread",
+    "deck_ui": "小报跨页",
+    "suit_id": "skin",
+    "suit_ui": "皮肤",
+    "description": "VICE 早期式：混排、照片+短段落、边栏、标题层级，像杂志跨页。",
+    "modules": [
+      {
+        "module_id": "spread_visual",
+        "required": true,
+        "desc": "杂志跨页主视觉",
+        "format": "image"
+      },
+      {
+        "module_id": "headline_set",
+        "required": true,
+        "desc": "标题组（3条）",
+        "format": "text"
+      },
+      {
+        "module_id": "sidebars",
+        "required": true,
+        "desc": "边栏（2-3条短块）",
+        "format": "text"
+      }
+    ],
+    "tags_primary": [
+      "origin:photo",
+      "theme:institution",
+      "output:dossier"
+    ],
+    "tags_secondary": [
+      "ui:watermark",
+      "quality:compressed"
+    ],
+    "default_risk_level": 1,
+    "default_sharpness": 0.75,
+    "safety_defaults": {
+      "default_redaction": [
+        "face",
+        "address_text"
+      ],
+      "default_disclaimer": "no_real_orgs"
+    },
+    "version": "1.0"
+  }
+]

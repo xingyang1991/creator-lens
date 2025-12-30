@@ -1,0 +1,30 @@
+{
+  "card_id": "hunter_s_thompson__gonzo_bulletin",
+  "creator": "Hunter S. Thompson",
+  "creator_raw": "Hunter S. Thompson",
+  "card_name_en": "GONZO BULLETIN",
+  "card_name_zh": "贡佐快讯",
+  "suit_id": "skin",
+  "suit_ui": "皮肤",
+  "deck_id": "gonzo_bulletin",
+  "deck_ui": "贡佐快报",
+  "tags": [
+    "creator:hunter_s_thompson",
+    "deck:gonzo_bulletin",
+    "origin:photo",
+    "output:dossier",
+    "space:street",
+    "suit:skin",
+    "theme:satire"
+  ],
+  "risk_level": 1,
+  "sharpness": 0.8,
+  "content_markdown_path": "cards/markdown/hunter_s_thompson__gonzo_bulletin.md",
+  "source": {
+    "type": "pack",
+    "pack": "artist_cases_pack_v4",
+    "original_file": "12_Hunter_S_Thompson.md",
+    "original_relpath": "source_packs/artist_cases_pack_v4/12_Hunter_S_Thompson.md"
+  },
+  "version": "1.0"
+}

@@ -1,0 +1,31 @@
+{
+  "card_id": "vice_early_era__access_all_areas_zine",
+  "creator": "VICE early-era",
+  "creator_raw": "VICE early-era",
+  "card_name_en": "ACCESS-ALL-AREAS ZINE",
+  "card_name_zh": "直闯现场小报",
+  "suit_id": "skin",
+  "suit_ui": "皮肤",
+  "deck_id": "zine_spread",
+  "deck_ui": "小报跨页",
+  "tags": [
+    "creator:vice_early_era",
+    "deck:zine_spread",
+    "origin:photo",
+    "output:dossier",
+    "quality:compressed",
+    "suit:skin",
+    "theme:institution",
+    "ui:watermark"
+  ],
+  "risk_level": 1,
+  "sharpness": 0.75,
+  "content_markdown_path": "cards/markdown/vice_early_era__access_all_areas_zine.md",
+  "source": {
+    "type": "pack",
+    "pack": "creator_cases_pack_v5",
+    "original_file": "01_VICE_early_era.md",
+    "original_relpath": "source_packs/creator_cases_pack_v5/01_VICE_early_era.md"
+  },
+  "version": "1.0"
+}

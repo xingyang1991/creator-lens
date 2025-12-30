@@ -1,0 +1,31 @@
+{
+  "card_id": "mark_dion__field_cabinet",
+  "creator": "Mark Dion",
+  "creator_raw": "Mark Dion",
+  "card_name_en": "FIELD CABINET",
+  "card_name_zh": "田野收藏柜",
+  "suit_id": "installation",
+  "suit_ui": "展厅",
+  "deck_id": "field_cabinet",
+  "deck_ui": "田野收藏柜",
+  "tags": [
+    "creator:mark_dion",
+    "deck:field_cabinet",
+    "object:archive_box",
+    "output:index_card",
+    "space:whitecube",
+    "suit:installation",
+    "theme:institution",
+    "theme:memory"
+  ],
+  "risk_level": 0,
+  "sharpness": 0.45,
+  "content_markdown_path": "cards/markdown/mark_dion__field_cabinet.md",
+  "source": {
+    "type": "pack",
+    "pack": "artist_cases_pack_v4",
+    "original_file": "06_Mark_Dion.md",
+    "original_relpath": "source_packs/artist_cases_pack_v4/06_Mark_Dion.md"
+  },
+  "version": "1.0"
+}

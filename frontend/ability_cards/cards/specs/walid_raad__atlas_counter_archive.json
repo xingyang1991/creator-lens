@@ -1,0 +1,29 @@
+{
+  "card_id": "walid_raad__atlas_counter_archive",
+  "creator": "Walid Raad",
+  "creator_raw": "Walid Raad",
+  "card_name_en": "ATLAS COUNTER-ARCHIVE",
+  "card_name_zh": "幽灵档案卷",
+  "suit_id": "dossier",
+  "suit_ui": "卷宗",
+  "deck_id": "counter_archive",
+  "deck_ui": "幽灵档案卷",
+  "tags": [
+    "creator:walid_raad",
+    "deck:counter_archive",
+    "object:archive_box",
+    "origin:scan",
+    "output:index_card",
+    "suit:dossier",
+    "theme:institution",
+    "theme:memory"
+  ],
+  "risk_level": 1,
+  "sharpness": 0.72,
+  "content_markdown_path": "cards/markdown/walid_raad__atlas_counter_archive.md",
+  "source": {
+    "type": "conversation",
+    "note": "Card spec written in prior rounds; packaged for dev team."
+  },
+  "version": "1.0"
+}

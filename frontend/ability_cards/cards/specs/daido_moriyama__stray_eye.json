@@ -1,0 +1,31 @@
+{
+  "card_id": "daido_moriyama__stray_eye",
+  "creator": "Daido Moriyama",
+  "creator_raw": "森山大道",
+  "card_name_en": "STRAY EYE",
+  "card_name_zh": "流浪犬视角",
+  "suit_id": "photo_grammar",
+  "suit_ui": "摄影谱",
+  "deck_id": "are_bure_boke",
+  "deck_ui": "粗粒散焦",
+  "tags": [
+    "creator:daido_moriyama",
+    "deck:are_bure_boke",
+    "light:night",
+    "quality:lowres",
+    "space:street",
+    "structure:sequence_potential",
+    "suit:photo_grammar",
+    "theme:memory"
+  ],
+  "risk_level": 0,
+  "sharpness": 0.6,
+  "content_markdown_path": "cards/markdown/daido_moriyama__stray_eye.md",
+  "source": {
+    "type": "pack",
+    "pack": "image_creator_cases_pack_v1",
+    "original_file": "02_Daido_Moriyama.md",
+    "original_relpath": "source_packs/image_creator_cases_pack_v1/02_Daido_Moriyama.md"
+  },
+  "version": "1.0"
+}

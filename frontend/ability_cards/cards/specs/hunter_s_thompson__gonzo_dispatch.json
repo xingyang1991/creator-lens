@@ -1,0 +1,30 @@
+{
+  "card_id": "hunter_s_thompson__gonzo_dispatch",
+  "creator": "Hunter S. Thompson",
+  "creator_raw": "Hunter S. Thompson",
+  "card_name_en": "GONZO DISPATCH",
+  "card_name_zh": "贡佐派遣",
+  "suit_id": "skin",
+  "suit_ui": "皮肤",
+  "deck_id": "gonzo_dispatch",
+  "deck_ui": "贡佐外派稿",
+  "tags": [
+    "creator:hunter_s_thompson",
+    "deck:gonzo_dispatch",
+    "output:dossier",
+    "risk:sensitive_scene",
+    "suit:skin",
+    "theme:institution",
+    "theme:satire"
+  ],
+  "risk_level": 2,
+  "sharpness": 0.88,
+  "content_markdown_path": "cards/markdown/hunter_s_thompson__gonzo_dispatch.md",
+  "source": {
+    "type": "pack",
+    "pack": "creator_cases_pack_v5",
+    "original_file": "05_Hunter_S_Thompson.md",
+    "original_relpath": "source_packs/creator_cases_pack_v5/05_Hunter_S_Thompson.md"
+  },
+  "version": "1.0"
+}

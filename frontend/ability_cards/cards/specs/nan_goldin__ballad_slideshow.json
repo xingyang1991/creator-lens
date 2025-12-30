@@ -1,0 +1,31 @@
+{
+  "card_id": "nan_goldin__ballad_slideshow",
+  "creator": "Nan Goldin",
+  "creator_raw": "Nan Goldin",
+  "card_name_en": "BALLAD SLIDESHOW",
+  "card_name_zh": "幻灯片日记编译器",
+  "suit_id": "screening",
+  "suit_ui": "放映",
+  "deck_id": "slideshow",
+  "deck_ui": "幻灯放映",
+  "tags": [
+    "creator:nan_goldin",
+    "deck:slideshow",
+    "origin:photo",
+    "output:cue_sheet",
+    "space:blackbox",
+    "structure:sequence_potential",
+    "suit:screening",
+    "theme:memory"
+  ],
+  "risk_level": 1,
+  "sharpness": 0.6,
+  "content_markdown_path": "cards/markdown/nan_goldin__ballad_slideshow.md",
+  "source": {
+    "type": "pack",
+    "pack": "artist_cases_pack_v2",
+    "original_file": "02_NanGoldin_BALLAD_SLIDESHOW.md",
+    "original_relpath": "source_packs/artist_cases_pack_v2/02_NanGoldin_BALLAD_SLIDESHOW.md"
+  },
+  "version": "1.0"
+}

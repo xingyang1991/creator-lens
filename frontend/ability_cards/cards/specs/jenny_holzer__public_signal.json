@@ -1,0 +1,30 @@
+{
+  "card_id": "jenny_holzer__public_signal",
+  "creator": "Jenny Holzer",
+  "creator_raw": "Jenny Holzer",
+  "card_name_en": "PUBLIC SIGNAL",
+  "card_name_zh": "公共标语投放机",
+  "suit_id": "installation",
+  "suit_ui": "展厅",
+  "deck_id": "public_signal",
+  "deck_ui": "公共标语机",
+  "tags": [
+    "carrier:led",
+    "carrier:poster",
+    "carrier:projection",
+    "carrier:signage",
+    "creator:jenny_holzer",
+    "deck:public_signal",
+    "output:cue_sheet",
+    "suit:installation",
+    "theme:institution"
+  ],
+  "risk_level": 1,
+  "sharpness": 0.75,
+  "content_markdown_path": "cards/markdown/jenny_holzer__public_signal.md",
+  "source": {
+    "type": "conversation",
+    "note": "Card spec written in prior rounds; packaged for dev team."
+  },
+  "version": "1.0"
+}

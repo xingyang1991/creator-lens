@@ -1,0 +1,32 @@
+{
+  "card_id": "jeff_wall__lightbox_tableau",
+  "creator": "Jeff Wall",
+  "creator_raw": "Jeff Wall",
+  "card_name_en": "LIGHTBOX TABLEAU",
+  "card_name_zh": "灯箱叙事编译器",
+  "suit_id": "installation",
+  "suit_ui": "展厅",
+  "deck_id": "lightbox_tableau",
+  "deck_ui": "灯箱叙事",
+  "tags": [
+    "creator:jeff_wall",
+    "deck:lightbox_tableau",
+    "light:cinematic",
+    "output:call_sheet",
+    "output:wall_label",
+    "space:threshold",
+    "space:whitecube",
+    "suit:installation",
+    "theme:montage"
+  ],
+  "risk_level": 0,
+  "sharpness": 0.55,
+  "content_markdown_path": "cards/markdown/jeff_wall__lightbox_tableau.md",
+  "source": {
+    "type": "pack",
+    "pack": "artist_cases_pack_v1",
+    "original_file": "01_JeffWall_LIGHTBOX_TABLEAU.md",
+    "original_relpath": "source_packs/artist_cases_pack_v1/01_JeffWall_LIGHTBOX_TABLEAU.md"
+  },
+  "version": "1.0"
+}

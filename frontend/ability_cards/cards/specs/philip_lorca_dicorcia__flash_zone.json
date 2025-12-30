@@ -1,0 +1,31 @@
+{
+  "card_id": "philip_lorca_dicorcia__flash_zone",
+  "creator": "Philip-Lorca diCorcia",
+  "creator_raw": "Philip-Lorca diCorcia",
+  "card_name_en": "FLASH ZONE",
+  "card_name_zh": "闪光剧场编译器",
+  "suit_id": "mechanism",
+  "suit_ui": "拆机",
+  "deck_id": "flash_zone",
+  "deck_ui": "闪光隔离区",
+  "tags": [
+    "creator:philip_lorca_dicorcia",
+    "deck:flash_zone",
+    "light:flash",
+    "output:board",
+    "risk:face_clear",
+    "space:street",
+    "suit:mechanism",
+    "theme:visibility"
+  ],
+  "risk_level": 1,
+  "sharpness": 0.65,
+  "content_markdown_path": "cards/markdown/philip_lorca_dicorcia__flash_zone.md",
+  "source": {
+    "type": "pack",
+    "pack": "artist_cases_pack_v2",
+    "original_file": "04_PhilipLorcaDiCorcia_FLASH_ZONE.md",
+    "original_relpath": "source_packs/artist_cases_pack_v2/04_PhilipLorcaDiCorcia_FLASH_ZONE.md"
+  },
+  "version": "1.0"
+}

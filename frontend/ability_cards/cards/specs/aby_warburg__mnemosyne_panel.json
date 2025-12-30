@@ -1,0 +1,31 @@
+{
+  "card_id": "aby_warburg__mnemosyne_panel",
+  "creator": "Aby Warburg",
+  "creator_raw": "Aby Warburg",
+  "card_name_en": "MNEMOSYNE PANEL",
+  "card_name_zh": "记忆图谱板",
+  "suit_id": "installation",
+  "suit_ui": "展厅",
+  "deck_id": "mnemosyne_panel",
+  "deck_ui": "记忆图谱板",
+  "tags": [
+    "creator:aby_warburg",
+    "deck:mnemosyne_panel",
+    "output:index_card",
+    "space:whitecube",
+    "structure:grid",
+    "structure:repetition",
+    "suit:installation",
+    "theme:memory"
+  ],
+  "risk_level": 0,
+  "sharpness": 0.55,
+  "content_markdown_path": "cards/markdown/aby_warburg__mnemosyne_panel.md",
+  "source": {
+    "type": "pack",
+    "pack": "artist_cases_pack_v4",
+    "original_file": "08_Warburg.md",
+    "original_relpath": "source_packs/artist_cases_pack_v4/08_Warburg.md"
+  },
+  "version": "1.0"
+}

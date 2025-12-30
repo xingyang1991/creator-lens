@@ -1,0 +1,30 @@
+{
+  "card_id": "ren_magritte__this_is_not",
+  "creator": "René Magritte",
+  "creator_raw": "René Magritte",
+  "card_name_en": "THIS IS NOT",
+  "card_name_zh": "标题机关绘画",
+  "suit_id": "installation",
+  "suit_ui": "展厅",
+  "deck_id": "caption_trap",
+  "deck_ui": "标题机关",
+  "tags": [
+    "carrier:signage",
+    "creator:ren_magritte",
+    "deck:caption_trap",
+    "output:wall_label",
+    "suit:installation",
+    "theme:institution",
+    "ui:watermark"
+  ],
+  "risk_level": 0,
+  "sharpness": 0.6,
+  "content_markdown_path": "cards/markdown/ren_magritte__this_is_not.md",
+  "source": {
+    "type": "pack",
+    "pack": "image_creator_cases_pack_v1",
+    "original_file": "07_Rene_Magritte.md",
+    "original_relpath": "source_packs/image_creator_cases_pack_v1/07_Rene_Magritte.md"
+  },
+  "version": "1.0"
+}

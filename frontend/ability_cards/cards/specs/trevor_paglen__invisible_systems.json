@@ -1,0 +1,31 @@
+{
+  "card_id": "trevor_paglen__invisible_systems",
+  "creator": "Trevor Paglen",
+  "creator_raw": "Trevor Paglen",
+  "card_name_en": "INVISIBLE SYSTEMS",
+  "card_name_zh": "不可见系统显影",
+  "suit_id": "mechanism",
+  "suit_ui": "拆机",
+  "deck_id": "invisible_systems",
+  "deck_ui": "不可见系统板",
+  "tags": [
+    "creator:trevor_paglen",
+    "deck:invisible_systems",
+    "origin:screenshot",
+    "output:board",
+    "suit:mechanism",
+    "theme:institution",
+    "theme:visibility",
+    "ui:video_player"
+  ],
+  "risk_level": 1,
+  "sharpness": 0.75,
+  "content_markdown_path": "cards/markdown/trevor_paglen__invisible_systems.md",
+  "source": {
+    "type": "pack",
+    "pack": "artist_cases_pack_v4",
+    "original_file": "04_Trevor_Paglen.md",
+    "original_relpath": "source_packs/artist_cases_pack_v4/04_Trevor_Paglen.md"
+  },
+  "version": "1.0"
+}

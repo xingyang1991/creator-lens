@@ -1,0 +1,30 @@
+{
+  "card_id": "cindy_sherman__untitled_role",
+  "creator": "Cindy Sherman",
+  "creator_raw": "Cindy Sherman",
+  "card_name_en": "UNTITLED ROLE",
+  "card_name_zh": "电影剧照角色上身",
+  "suit_id": "skin",
+  "suit_ui": "皮肤",
+  "deck_id": "still_role",
+  "deck_ui": "剧照角色页",
+  "tags": [
+    "creator:cindy_sherman",
+    "deck:still_role",
+    "output:dossier",
+    "structure:sequence_potential",
+    "suit:skin",
+    "theme:performance",
+    "ui:timestamp_overlay"
+  ],
+  "risk_level": 1,
+  "sharpness": 0.6,
+  "content_markdown_path": "cards/markdown/cindy_sherman__untitled_role.md",
+  "source": {
+    "type": "pack",
+    "pack": "artist_cases_pack_v1",
+    "original_file": "02_CindySherman_UNTITLED_ROLE.md",
+    "original_relpath": "source_packs/artist_cases_pack_v1/02_CindySherman_UNTITLED_ROLE.md"
+  },
+  "version": "1.0"
+}

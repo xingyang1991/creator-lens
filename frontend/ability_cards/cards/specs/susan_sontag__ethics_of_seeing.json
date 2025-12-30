@@ -1,0 +1,31 @@
+{
+  "card_id": "susan_sontag__ethics_of_seeing",
+  "creator": "Susan Sontag",
+  "creator_raw": "Susan Sontag",
+  "card_name_en": "ETHICS OF SEEING",
+  "card_name_zh": "观看伦理脚注",
+  "suit_id": "dossier",
+  "suit_ui": "卷宗",
+  "deck_id": "ethics_footnote",
+  "deck_ui": "伦理脚注页",
+  "tags": [
+    "creator:susan_sontag",
+    "deck:ethics_footnote",
+    "origin:photo",
+    "output:dossier",
+    "risk:face_clear",
+    "risk:sensitive_scene",
+    "suit:dossier",
+    "theme:visibility"
+  ],
+  "risk_level": 1,
+  "sharpness": 0.75,
+  "content_markdown_path": "cards/markdown/susan_sontag__ethics_of_seeing.md",
+  "source": {
+    "type": "pack",
+    "pack": "creator_cases_pack_v5",
+    "original_file": "06_Susan_Sontag.md",
+    "original_relpath": "source_packs/creator_cases_pack_v5/06_Susan_Sontag.md"
+  },
+  "version": "1.0"
+}

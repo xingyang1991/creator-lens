@@ -1,0 +1,32 @@
+{
+  "card_id": "damien_hirst__clinical_display",
+  "creator": "Damien Hirst",
+  "creator_raw": "Damien Hirst",
+  "card_name_en": "CLINICAL DISPLAY",
+  "card_name_zh": "临床陈列编译器",
+  "suit_id": "installation",
+  "suit_ui": "展厅",
+  "deck_id": "clinical_display",
+  "deck_ui": "临床陈列柜",
+  "tags": [
+    "creator:damien_hirst",
+    "deck:clinical_display",
+    "object:catalogue",
+    "object:form",
+    "output:certificate",
+    "output:wall_label",
+    "space:whitecube",
+    "suit:installation",
+    "theme:institution"
+  ],
+  "risk_level": 0,
+  "sharpness": 0.5,
+  "content_markdown_path": "cards/markdown/damien_hirst__clinical_display.md",
+  "source": {
+    "type": "pack",
+    "pack": "artist_cases_pack_v1",
+    "original_file": "03_DamienHirst_CLINICAL_DISPLAY.md",
+    "original_relpath": "source_packs/artist_cases_pack_v1/03_DamienHirst_CLINICAL_DISPLAY.md"
+  },
+  "version": "1.0"
+}

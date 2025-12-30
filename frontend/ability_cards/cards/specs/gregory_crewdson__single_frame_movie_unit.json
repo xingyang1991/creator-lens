@@ -1,0 +1,29 @@
+{
+  "card_id": "gregory_crewdson__single_frame_movie_unit",
+  "creator": "Gregory Crewdson",
+  "creator_raw": "Gregory Crewdson",
+  "card_name_en": "SINGLE-FRAME MOVIE UNIT",
+  "card_name_zh": "单帧电影剧组",
+  "suit_id": "installation",
+  "suit_ui": "展厅",
+  "deck_id": "single_frame_movie_unit",
+  "deck_ui": "单帧剧组包",
+  "tags": [
+    "creator:gregory_crewdson",
+    "deck:single_frame_movie_unit",
+    "light:cinematic",
+    "light:night",
+    "output:call_sheet",
+    "space:threshold",
+    "suit:installation",
+    "theme:montage"
+  ],
+  "risk_level": 1,
+  "sharpness": 0.65,
+  "content_markdown_path": "cards/markdown/gregory_crewdson__single_frame_movie_unit.md",
+  "source": {
+    "type": "conversation",
+    "note": "Card spec written in prior rounds; packaged for dev team."
+  },
+  "version": "1.0"
+}

@@ -1,0 +1,21 @@
+const express = require('express');
+const cors = require('cors');
+const fetch = require('node-fetch');
+const rateLimit = require('express-rate-limit');
+
+const app = express();
+const PORT = process.env.PORT || 3001;
+
+// 从环境变量读取敏感信息
+const DASHSCOPE_API_KEY = process.env.DASHSCOPE_API_KEY || 'your-dashscope-api-key';
+const FRONTEND_API_KEY = process.env.FRONTEND_API_KEY || 'your-frontend-api-key';
+
+const ALLOWED_ORIGINS = [
+  'http://creatorlens.top',
+  'https://creatorlens.top',
+  'http://www.creatorlens.top',
+  'https://www.creatorlens.top',
+  'http://localhost:5173',
+  'http://localhost:5180',
+  'http://localhost:3000',
+];

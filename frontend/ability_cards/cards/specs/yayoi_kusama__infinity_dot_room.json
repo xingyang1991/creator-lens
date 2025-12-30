@@ -1,0 +1,31 @@
+{
+  "card_id": "yayoi_kusama__infinity_dot_room",
+  "creator": "Yayoi Kusama",
+  "creator_raw": "Yayoi Kusama",
+  "card_name_en": "INFINITY DOT ROOM",
+  "card_name_zh": "自我消融镜屋编译器",
+  "suit_id": "installation",
+  "suit_ui": "展厅",
+  "deck_id": "infinity_dot_room",
+  "deck_ui": "镜屋点阵",
+  "tags": [
+    "creator:yayoi_kusama",
+    "deck:infinity_dot_room",
+    "light:night",
+    "output:wall_label",
+    "space:whitecube",
+    "structure:repetition",
+    "suit:installation",
+    "theme:memory"
+  ],
+  "risk_level": 0,
+  "sharpness": 0.45,
+  "content_markdown_path": "cards/markdown/yayoi_kusama__infinity_dot_room.md",
+  "source": {
+    "type": "pack",
+    "pack": "artist_cases_pack_v1",
+    "original_file": "05_YayoiKusama_INFINITY_DOT_ROOM.md",
+    "original_relpath": "source_packs/artist_cases_pack_v1/05_YayoiKusama_INFINITY_DOT_ROOM.md"
+  },
+  "version": "1.0"
+}

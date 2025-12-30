@@ -1,0 +1,31 @@
+{
+  "card_id": "ferran_adri__elbulli_taller",
+  "creator": "Ferran Adrià",
+  "creator_raw": "Ferran Adrià（El Bulli）",
+  "card_name_en": "ELBULLI TALLER",
+  "card_name_zh": "菜品研发工坊",
+  "suit_id": "dossier",
+  "suit_ui": "卷宗",
+  "deck_id": "r_d_workshop",
+  "deck_ui": "研发工坊页",
+  "tags": [
+    "creator:ferran_adri",
+    "deck:r_d_workshop",
+    "object:checklist",
+    "object:form",
+    "space:workbench",
+    "suit:dossier",
+    "theme:institution",
+    "theme:protocol"
+  ],
+  "risk_level": 0,
+  "sharpness": 0.55,
+  "content_markdown_path": "cards/markdown/ferran_adri__elbulli_taller.md",
+  "source": {
+    "type": "pack",
+    "pack": "creator_cases_pack_v5",
+    "original_file": "03_Ferran_Adria.md",
+    "original_relpath": "source_packs/creator_cases_pack_v5/03_Ferran_Adria.md"
+  },
+  "version": "1.0"
+}

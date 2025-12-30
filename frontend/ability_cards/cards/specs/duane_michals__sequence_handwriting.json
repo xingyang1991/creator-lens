@@ -1,0 +1,31 @@
+{
+  "card_id": "duane_michals__sequence_handwriting",
+  "creator": "Duane Michals",
+  "creator_raw": "Duane Michals",
+  "card_name_en": "SEQUENCE + HANDWRITING",
+  "card_name_zh": "叙事序列与手写句",
+  "suit_id": "photo_grammar",
+  "suit_ui": "摄影谱",
+  "deck_id": "sequence_handwriting",
+  "deck_ui": "手写序列",
+  "tags": [
+    "creator:duane_michals",
+    "deck:sequence_handwriting",
+    "light:night",
+    "origin:photo",
+    "output:dossier",
+    "structure:sequence_potential",
+    "suit:photo_grammar",
+    "theme:memory"
+  ],
+  "risk_level": 0,
+  "sharpness": 0.5,
+  "content_markdown_path": "cards/markdown/duane_michals__sequence_handwriting.md",
+  "source": {
+    "type": "pack",
+    "pack": "image_creator_cases_pack_v1",
+    "original_file": "08_Duane_Michals.md",
+    "original_relpath": "source_packs/image_creator_cases_pack_v1/08_Duane_Michals.md"
+  },
+  "version": "1.0"
+}
